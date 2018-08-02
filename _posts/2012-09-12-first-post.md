@@ -91,7 +91,7 @@ Those 5 classes correspond to the following 5 cases:
 ### Analysis About Routes
 
 After grouping all the stations into 5 classes, I want to see how differently do people travel using bicycles from different class of stations.
-The most interesting 8 cases can be found in this interactive [<span style="color:blue">map</span>](https://dingma129.github.io/assets/active_image/divvy/wkd_8cases.html). In each case, I only plot the top 50 popular trips in order to get a clean figure. I get the following fun facts:
+The most interesting 8 cases can be found in this [<span style="color:blue">interactive map</span>](https://dingma129.github.io/assets/active_image/divvy/wkd_8cases.html). In each case, I only plot the top 50 popular trips in order to get a clean figure. I get the following fun facts:
 1. On weekday morning, people tend to ride from home to metro stations, take a metro, then continue riding to work.
     * The rides from living area (Living I and Living II) are mainly towards metro stations, while there are still some people riding directly from Living I towards Work Area.
     * The rides from Trainsition Centers are mainly towards Work Area, and most rides towards Work Area are coming from Trainsition Centers
