@@ -6,7 +6,7 @@ layout: post
 
 ## Chicago Divvy Bicycle Project
 
-[Divvy](https://www.divvybikes.com/) is a bicycle sharing system in the City of Chicago and two adjacent suburbs operated by Motivate for the Chicago Department of Transportation. It operates 5800 bicycles at 580 stations in an area bounded by 87th Street on the south, Central Street in Evanston on the north, Rainbow Beach Park near South Shore Drive on the east, and Harlem Avenue in Oak Park on the west.
+[<span style="color:blue">Divvy</span>](https://www.divvybikes.com/) is a bicycle sharing system in the City of Chicago and two adjacent suburbs operated by Motivate for the Chicago Department of Transportation. It operates 5800 bicycles at 580 stations in an area bounded by 87th Street on the south, Central Street in Evanston on the north, Rainbow Beach Park near South Shore Drive on the east, and Harlem Avenue in Oak Park on the west.
 
 In this blog, I proformed a series of data processing, visualization, and analysis. All the source code can be found on my Github page.
 
@@ -14,7 +14,7 @@ In this blog, I proformed a series of data processing, visualization, and analys
 
 ## Data
 ### Bicycle Data
-You can download the Divvy Bicycle data from 2013 to 2017 [here](https://www.divvybikes.com/system-data).
+You can download the Divvy Bicycle data from 2013 to 2017 [<span style="color:blue">here</span>](https://www.divvybikes.com/system-data).
 In this data, each trip is anonymized and includes:
 * Trip start day and time
 * Trip end day and time
@@ -31,7 +31,7 @@ In this project, I write a wrapper to download the historical weather of Chicago
 ## Visualization
 
 ### Stations at the end of 2017
-Here is an [interactive map](https://dingma129.github.io/assets/active_image/divvy/station_distribution.html) for station distribution. We can see that most of the stations are located in the downtown area.
+Here is an [<span style="color:blue">interactive map</span>](https://dingma129.github.io/assets/active_image/divvy/station_distribution.html) for station distribution. We can see that most of the stations are located in the downtown area.
 
 ### By Year
 Annual total trip counts were growing from 2014 to 2017. However, the average trip duration did not change at all.
@@ -79,7 +79,7 @@ After rescaling the data to mean=0 and std=1, we perform a model selection with 
 
 <img src="https://dingma129.github.io/assets/figures/divvy/GMMbic.png" width="400">
 
-Then we perform the GMM to classify the stations into 5 classes. An interactive map can be found [here](https://dingma129.github.io/assets/active_image/divvy/station_5types.html). 
+Then we perform the GMM to classify the stations into 5 classes. An interactive map can be found [<span style="color:blue">here</span>](https://dingma129.github.io/assets/active_image/divvy/station_5types.html). 
 
 Those 5 classes correspond to the following 5 cases:
 1. Work Area: mainly in downtown Chicago
@@ -91,11 +91,8 @@ Those 5 classes correspond to the following 5 cases:
 ### Analysis About Routes
 
 After grouping all the stations into 5 classes, I want to see how differently do people travel using bicycles from different class of stations.
-The most interesting 8 cases can be found in this interactive [map](https://dingma129.github.io/assets/active_image/divvy/wkd_8cases.html). In each case, I only plot the top 50 popular trips in order to get a clean figure. I get the following fun facts:
+The most interesting 8 cases can be found in this interactive [<span style="color:blue">map</span>](https://dingma129.github.io/assets/active_image/divvy/wkd_8cases.html). In each case, I only plot the top 50 popular trips in order to get a clean figure. I get the following fun facts:
 1. On weekday morning, people tend to ride from home to metro stations, take a metro, then continue riding to work.
     * The rides from living area (Living I and Living II) are mainly towards metro stations, while there are still some people riding directly from Living I towards Work Area.
     * The rides from Trainsition Centers are mainly towards Work Area, and most rides towards Work Area are coming from Trainsition Centers
 2. On weekday afternoon, we can see exactly the opposite trends as in the morning.
-
-
-<span style="color:blue">some *blue* text</span>
