@@ -4,11 +4,13 @@ author: Ding Ma
 layout: post
 ---
 
-## **Chicago Divvy Bicycle Project**
+## Chicago Divvy Bicycle Project
 
 [Divvy](https://www.divvybikes.com/) is a bicycle sharing system in the City of Chicago and two adjacent suburbs operated by Motivate for the Chicago Department of Transportation. It operates 5800 bicycles at 580 stations in an area bounded by 87th Street on the south, Central Street in Evanston on the north, Rainbow Beach Park near South Shore Drive on the east, and Harlem Avenue in Oak Park on the west.
 
 In this blog, I proformed a series of data processing, visualization, and analysis. All the source code can be found on my Github page.
+
+---
 
 ## Data
 ### Bicycle Data
@@ -23,6 +25,8 @@ In this data, each trip is anonymized and includes:
 
 ### Weather Data
 In this project, I write a wrapper to download the historical weather of Chicago between 2013-2017 from [National Oceanic and Atmospheric Administration](https://www.noaa.gov).
+
+***
 
 ## Visualization
 
@@ -50,6 +54,8 @@ If we take a closer look, there are particular patterns within a day.
 * During weekend, there was plenty of rides during 8:00-20:59 with no sharp peak.
 
 <img src="https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png" width="800">
+
+___
 
 ## Analyses
 
