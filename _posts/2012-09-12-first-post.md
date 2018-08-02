@@ -26,17 +26,17 @@ In this project, I write a wrapper to download the historical weathers of Chicag
 
 ### Visualization
   * Annual total trip counts were growing from 2013 to 2017. The average trip duration did not change at all.
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png =250x)
-<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png" width="250">
+
+<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png" width="1000">
   * 
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png =200x)
-<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png" width="220">
 
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png =150x)
-<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png" width="200">
+<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png" width="800">
 
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png =100x)
-<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png" width="180">
+
+<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png" width="1200">
+
+
+<img src="https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png" width="800">
 
 ### Analysis
 <img src="assets/aaa.html" width="220">
