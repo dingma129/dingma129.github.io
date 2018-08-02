@@ -4,7 +4,7 @@ author: Ding Ma
 layout: post
 ---
 
-## Chicago Divvy Bicycle Project
+## **Chicago Divvy Bicycle Project**
 
 [Divvy](https://www.divvybikes.com/) is a bicycle sharing system in the City of Chicago and two adjacent suburbs operated by Motivate for the Chicago Department of Transportation. It operates 5800 bicycles at 580 stations in an area bounded by 87th Street on the south, Central Street in Evanston on the north, Rainbow Beach Park near South Shore Drive on the east, and Harlem Avenue in Oak Park on the west.
 
