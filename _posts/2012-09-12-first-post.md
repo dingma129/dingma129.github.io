@@ -39,6 +39,7 @@ In this project, I write a wrapper to download the historical weathers of Chicag
 <img src="https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png" width="800">
 
 ### Analysis
-<img src="assets/aaa.html" width="220">
+
+[Try](https://dingma129.github.io/assets/aaa.html)
 
 ### Conclusion
