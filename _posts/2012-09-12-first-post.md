@@ -96,3 +96,6 @@ The most interesting 8 cases can be found in this interactive [map](https://ding
     * The rides from living area (Living I and Living II) are mainly towards metro stations, while there are still some people riding directly from Living I towards Work Area.
     * The rides from Trainsition Centers are mainly towards Work Area, and most rides towards Work Area are coming from Trainsition Centers
 2. On weekday afternoon, we can see exactly the opposite trends as in the morning.
+
+
+<span style="color:blue">some *blue* text</span>
