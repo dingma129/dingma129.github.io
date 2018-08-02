@@ -26,13 +26,13 @@ In this project, I write a wrapper to download the historical weathers of Chicag
 
 ### Visualization
   * Annual total trip counts were growing from 2013 to 2017. The average trip duration did not change at all.
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png =250x "trip by year" )
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png =250x)
   * 
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png =200x"trip by month")
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png =200x)
 
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png =150x"trip by dayofweek")
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png =150x)
 
-![](https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png =100x"trip by hour")
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png =100x)
 
 ### Analysis
 
