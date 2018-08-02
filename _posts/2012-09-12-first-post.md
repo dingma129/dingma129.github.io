@@ -25,14 +25,14 @@ In this data, each trip is anonymized and includes:
 In this project, I write a wrapper to download the historical weathers of Chicago between 2013-2017 from [National Oceanic and Atmospheric Administration](https://www.noaa.gov).
 
 ### Visualization
+  * Annual total trip counts were growing from 2013 to 2017. The average trip duration did not change at all.
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png =250x "trip by year" )
+  * 
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png =200x"trip by month")
 
-![aaa](https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png "vs year")
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png =150x"trip by dayofweek")
 
-![aaa](https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png "vs month")
-
-![aaa](https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png "vs dayofweek")
-
-![aaa](https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png "vs hour")
+![](https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png =100x"trip by hour")
 
 ### Analysis
 
