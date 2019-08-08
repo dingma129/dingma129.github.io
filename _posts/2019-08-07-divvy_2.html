@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>Chicago Divvy Bicycle</title></head>
+<body>
+<h1>Chicago Divvy Bicycle Project</h1>
+<p><a href='https://www.divvybikes.com/'><span style="color:blue">Divvy</span></a> is a bicycle sharing system in the City of Chicago and two adjacent suburbs operated by Motivate for the Chicago Department of Transportation. It operates 5800 bicycles at 580 stations in an area bounded by 87th Street on the south, Central Street in Evanston on the north, Rainbow Beach Park near South Shore Drive on the east, and Harlem Avenue in Oak Park on the west.</p>
+<p>In this blog, I proformed a series of data processing, visualization, and analysis.</p>
+<hr />
+<h2>1. Data Description</h2>
+<h3>Bicycle Data</h3>
+<p>You can download the Divvy Bicycle data from 2013 to 2017 .
+There are two data sets.</p>
+<ol start='' >
+<li><p><a href='https://www.divvybikes.com/system-data'>data set of historical trip</a>, which includes:</p>
+<ul>
+<li>trip start day and time</li>
+<li>trip end day and time</li>
+<li>trip start station id</li>
+<li>trip end station id</li>
+<li>rider type (Member, Single Ride, and Explore Pass)</li>
+<li>...</li>
+
+</ul>
+</li>
+<li><p><a href='https://data.cityofchicago.org/Transportation/Divvy-Bicycle-Stations-Historical/eq45-8inv'>data set of stations</a>, which includes:</p>
+<ul>
+<li>station id</li>
+<li>timestamp: recorded every 10 minutes</li>
+<li>docks in service</li>
+<li>percent full: percentage of docks in service containing an available bike</li>
+<li>latitude</li>
+<li>longitude</li>
+<li>...</li>
+
+</ul>
+</li>
+
+</ol>
+<hr />
+<h2>2. Exploratory Data Visualization</h2>
+<h3>Stations at the end of 2017</h3>
+<p>Here is an <a href='https://dingma129.github.io/assets/active_image/divvy/station_distribution.html'><span style="color:blue">interactive map</span></a> for station distribution. We can see that most of the stations are located in the downtown area.</p>
+<h3>By Year</h3>
+<p>Annual total trip counts were growing from 2014 to 2017. However, the average trip duration did not change at all.</p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsyear.png" width="800"></p>
+<h3>By Month </h3>
+<p>During June, July, August and September, there were more trips. The average trip duration was also relatively longer during those four months. </p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsmonth.png" width="800"></p>
+<h3>By Day of Week</h3>
+<p>There were more rides during weekdays comparing to weekends. But the average trip duration was longer during weekend. </p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/tripcountvsdayofweek.png" width="800"></p>
+<h3>By Hour</h3>
+<p>If we take a closer look, there are particular patterns within a day.</p>
+<ul>
+<li>During weekday, there were two peaks of trip counts. One happened at 7:00-8:59, and the other happened at 16:00-18:59.</li>
+<li>During weekend, there was plenty of rides during 8:00-20:59 with no sharp peak.</li>
+
+</ul>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/tripcountvshour.png" width="800"></p>
+<hr />
+<h2>3. Goal of This Project</h2>
+<p>From the last figure above, we can see that in the weekday, there are much more trip happened during 7:00-8:59 and 16:00-18:59 comparing to other time. So a natural question is: <u>Does every station behave differently</u>?</p>
+<h3>Goal:</h3>
+<ol start='' >
+<li>group stations according to their behaviors during weekday, and analyze the reasons causing those different behaviours</li>
+<li>for each station, create a time-series model to predict the future station usage based on historical data</li>
+<li>given a GPS location, suggest a user to a nearby station with highest probability that may have an available bike to borrow or may have an available dock to return a borrowed bike</li>
+
+</ol>
+<hr />
+<h2>4. Data Analyses</h2>
+<h3>4.1 group stations by their weekday behaviors</h3>
+<p>For simplicity, we only consider the data after 2016. (since after 2016, the stations do not change a lot)</p>
+<ol start='' >
+<li><p>take hourly average over <code>percent full</code> column for each station, and create a pivot table like the following.</p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/dataset_1.png" width="500"></p>
+</li>
+<li><p>keep the records on business day only</p>
+</li>
+<li><p>take the average on each of the 24-hour over all business days, and get a data frame with rows being all station ids and columns being 24 hours</p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/dataset_pivot.png" width="500"></p>
+</li>
+<li><p>run k mean models and gaussian mixture models with 2-9 clusters over this data set, and select the best model using silhouette score</p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/model_selection.png" width="500"></p>
+<p>so the best model is k means with 3 clusters</p>
+</li>
+<li><p>if we plot the average <code>percent full</code> for each stations with different colors corresponding to their group assigned by k means, and also the group mean, we can clearly see the difference between those 3 groups</p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/3_groups.png" width="800"></p>
+</li>
+<li><p><span style="color:red">a brief conclusion:</span></p>
+<p>From the above graph, we can see that four groups behave differently:</p>
+<ul>
+<li><strong>Group 0</strong>: <strong>high</strong> full percentage during moring and night, <strong>normal</strong> full percentage during daytime</li>
+<li><strong>Group 1</strong>: has a <strong>normal</strong> 24 hour full percentage, <strong>stable</strong> during whole day</li>
+<li><strong>Group 2</strong>: <strong>low</strong> full percentage during moring and night, <strong>high</strong> full percentage during daytim7</li>
+
+</ul>
+</li>
+<li><p>in order to see the reason that causing such different behaviors, we plot all the stations with their labels on a map (click <a href='https://dingma129.github.io/assets/active_image/divvy/3_groups_large.html'>here</a> for a large version)</p>
+<embed src="https://dingma129.github.io/assets/active_image/divvy/3_groups_small.html" width="460" height="620">
+</li>
+<li><p><span style="color:red">Further explanations</span>
+The graph above explains the <code>percent full</code> behaviours of each group</p>
+<ul>
+<li><p><strong>Group 0</strong>: <strong>high</strong> full percentage during moring and night, <strong>normal</strong> full percentage during daytime</p>
+<p><strong>Reason:</strong> They mainly locate at living areas. In the morning, there are lots of bicycles. Then people ride them to work, which results in a dramatic decrease of Full Percentage around 6:00-8:00. During daytime, there are few number of bicycles until people ride bicycles from work to home around 16:00-18:00.</p>
+</li>
+<li><p><strong>Group 1</strong>: has a <strong>normal</strong> 24 hour full percentage, <strong>stable</strong> during whole day</p>
+<p><strong>Reason:</strong> Not many people use those stations, so the full percentage rarely changes. </p>
+</li>
+<li><p><strong>Group 2</strong>: <strong>low</strong> full percentage during moring and night, <strong>high</strong> full percentage during daytime</p>
+<p><strong>Reason:</strong> They mainly locate at working areas (downtown Chicago). In the morning, there are few bicycles. Then people ride bicycles from home to work, which results in a dramatic increase of Full Percentage around 6:00-8:00. During daytime, there are lots of bicycles until people ride bicycles back to home around 16:00-18:00.</p>
+</li>
+
+</ul>
+<p>&nbsp;</p>
+</li>
+
+</ol>
+<ol start='9' >
+<li><strong>Remark: Similar analysis can be done for weekend information, and we will skip it here</strong></li>
+
+</ol>
+<p>&nbsp;</p>
+<h3>4.2 predict the future station usage using time-series model</h3>
+<p>We will use <a href='https://en.wikipedia.org/wiki/Exponential_smoothing'>Holt-Winters model(triple exponential smoothing model)</a> to make the prediction.</p>
+<pre><code>Why do we choose such a model?
+The reason why we use triple exponential smoothing instead of single or double is that the station usage has an obvious seasonal change and also a slightly increasing trend. 
+</code></pre>
+<p>This model is not implemented in Python, we write our own model class. There are 3 main parameters for this model.</p>
+<ul>
+<li><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="10.004ex" height="1.994ex" viewBox="0 -755.9 4307.1 858.4" role="img" focusable="false" style="vertical-align: -0.238ex;"><defs><path stroke-width="0" id="E11-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path><path stroke-width="0" id="E11-MJMAIN-3C" d="M694 -11T694 -19T688 -33T678 -40Q671 -40 524 29T234 166L90 235Q83 240 83 250Q83 261 91 266Q664 540 678 540Q681 540 687 534T694 519T687 505Q686 504 417 376L151 250L417 124Q686 -4 687 -5Q694 -11 694 -19Z"></path><path stroke-width="0" id="E11-MJMATHI-3B1" d="M34 156Q34 270 120 356T309 442Q379 442 421 402T478 304Q484 275 485 237V208Q534 282 560 374Q564 388 566 390T582 393Q603 393 603 385Q603 376 594 346T558 261T497 161L486 147L487 123Q489 67 495 47T514 26Q528 28 540 37T557 60Q559 67 562 68T577 70Q597 70 597 62Q597 56 591 43Q579 19 556 5T512 -10H505Q438 -10 414 62L411 69L400 61Q390 53 370 41T325 18T267 -2T203 -11Q124 -11 79 39T34 156ZM208 26Q257 26 306 47T379 90L403 112Q401 255 396 290Q382 405 304 405Q235 405 183 332Q156 292 139 224T121 120Q121 71 146 49T208 26Z"></path><path stroke-width="0" id="E11-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E11-MJMAIN-30" x="0" y="0"></use><use xlink:href="#E11-MJMAIN-3C" x="777" y="0"></use><use xlink:href="#E11-MJMATHI-3B1" x="1833" y="0"></use><use xlink:href="#E11-MJMAIN-3C" x="2751" y="0"></use><use xlink:href="#E11-MJMAIN-31" x="3807" y="0"></use></g></svg></span><script type="math/tex">0<\alpha<1</script>: data smoothing factor</li>
+<li><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="9.848ex" height="2.461ex" viewBox="0 -806.1 4240.1 1059.4" role="img" focusable="false" style="vertical-align: -0.588ex;"><defs><path stroke-width="0" id="E23-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path><path stroke-width="0" id="E23-MJMAIN-3C" d="M694 -11T694 -19T688 -33T678 -40Q671 -40 524 29T234 166L90 235Q83 240 83 250Q83 261 91 266Q664 540 678 540Q681 540 687 534T694 519T687 505Q686 504 417 376L151 250L417 124Q686 -4 687 -5Q694 -11 694 -19Z"></path><path stroke-width="0" id="E23-MJMATHI-3B2" d="M29 -194Q23 -188 23 -186Q23 -183 102 134T186 465Q208 533 243 584T309 658Q365 705 429 705H431Q493 705 533 667T573 570Q573 465 469 396L482 383Q533 332 533 252Q533 139 448 65T257 -10Q227 -10 203 -2T165 17T143 40T131 59T126 65L62 -188Q60 -194 42 -194H29ZM353 431Q392 431 427 419L432 422Q436 426 439 429T449 439T461 453T472 471T484 495T493 524T501 560Q503 569 503 593Q503 611 502 616Q487 667 426 667Q384 667 347 643T286 582T247 514T224 455Q219 439 186 308T152 168Q151 163 151 147Q151 99 173 68Q204 26 260 26Q302 26 349 51T425 137Q441 171 449 214T457 279Q457 337 422 372Q380 358 347 358H337Q258 358 258 389Q258 396 261 403Q275 431 353 431Z"></path><path stroke-width="0" id="E23-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E23-MJMAIN-30" x="0" y="0"></use><use xlink:href="#E23-MJMAIN-3C" x="777" y="0"></use><use xlink:href="#E23-MJMATHI-3B2" x="1833" y="0"></use><use xlink:href="#E23-MJMAIN-3C" x="2684" y="0"></use><use xlink:href="#E23-MJMAIN-31" x="3740" y="0"></use></g></svg></span><script type="math/tex">0<\beta<1</script>: trend smoothing factor</li>
+<li><span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="9.778ex" height="2.461ex" viewBox="0 -755.9 4210.1 1059.4" role="img" focusable="false" style="vertical-align: -0.705ex;"><defs><path stroke-width="0" id="E38-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path><path stroke-width="0" id="E38-MJMAIN-3C" d="M694 -11T694 -19T688 -33T678 -40Q671 -40 524 29T234 166L90 235Q83 240 83 250Q83 261 91 266Q664 540 678 540Q681 540 687 534T694 519T687 505Q686 504 417 376L151 250L417 124Q686 -4 687 -5Q694 -11 694 -19Z"></path><path stroke-width="0" id="E38-MJMATHI-3B3" d="M31 249Q11 249 11 258Q11 275 26 304T66 365T129 418T206 441Q233 441 239 440Q287 429 318 386T371 255Q385 195 385 170Q385 166 386 166L398 193Q418 244 443 300T486 391T508 430Q510 431 524 431H537Q543 425 543 422Q543 418 522 378T463 251T391 71Q385 55 378 6T357 -100Q341 -165 330 -190T303 -216Q286 -216 286 -188Q286 -138 340 32L346 51L347 69Q348 79 348 100Q348 257 291 317Q251 355 196 355Q148 355 108 329T51 260Q49 251 47 251Q45 249 31 249Z"></path><path stroke-width="0" id="E38-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E38-MJMAIN-30" x="0" y="0"></use><use xlink:href="#E38-MJMAIN-3C" x="777" y="0"></use><use xlink:href="#E38-MJMATHI-3B3" x="1833" y="0"></use><use xlink:href="#E38-MJMAIN-3C" x="2654" y="0"></use><use xlink:href="#E38-MJMAIN-31" x="3710" y="0"></use></g></svg></span><script type="math/tex">0<\gamma<1</script>: seasonal change smoothing factor</li>
+
+</ul>
+<p>we first build a separate model for every single station, using random cross-validation to choose the values of <span class="MathJax_SVG" tabindex="-1" style="font-size: 100%; display: inline-block;"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="6.144ex" height="2.577ex" viewBox="0 -806.1 2645.3 1109.7" role="img" focusable="false" style="vertical-align: -0.705ex;"><defs><path stroke-width="0" id="E70-MJMATHI-3B1" d="M34 156Q34 270 120 356T309 442Q379 442 421 402T478 304Q484 275 485 237V208Q534 282 560 374Q564 388 566 390T582 393Q603 393 603 385Q603 376 594 346T558 261T497 161L486 147L487 123Q489 67 495 47T514 26Q528 28 540 37T557 60Q559 67 562 68T577 70Q597 70 597 62Q597 56 591 43Q579 19 556 5T512 -10H505Q438 -10 414 62L411 69L400 61Q390 53 370 41T325 18T267 -2T203 -11Q124 -11 79 39T34 156ZM208 26Q257 26 306 47T379 90L403 112Q401 255 396 290Q382 405 304 405Q235 405 183 332Q156 292 139 224T121 120Q121 71 146 49T208 26Z"></path><path stroke-width="0" id="E70-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path><path stroke-width="0" id="E70-MJMATHI-3B2" d="M29 -194Q23 -188 23 -186Q23 -183 102 134T186 465Q208 533 243 584T309 658Q365 705 429 705H431Q493 705 533 667T573 570Q573 465 469 396L482 383Q533 332 533 252Q533 139 448 65T257 -10Q227 -10 203 -2T165 17T143 40T131 59T126 65L62 -188Q60 -194 42 -194H29ZM353 431Q392 431 427 419L432 422Q436 426 439 429T449 439T461 453T472 471T484 495T493 524T501 560Q503 569 503 593Q503 611 502 616Q487 667 426 667Q384 667 347 643T286 582T247 514T224 455Q219 439 186 308T152 168Q151 163 151 147Q151 99 173 68Q204 26 260 26Q302 26 349 51T425 137Q441 171 449 214T457 279Q457 337 422 372Q380 358 347 358H337Q258 358 258 389Q258 396 261 403Q275 431 353 431Z"></path><path stroke-width="0" id="E70-MJMATHI-3B3" d="M31 249Q11 249 11 258Q11 275 26 304T66 365T129 418T206 441Q233 441 239 440Q287 429 318 386T371 255Q385 195 385 170Q385 166 386 166L398 193Q418 244 443 300T486 391T508 430Q510 431 524 431H537Q543 425 543 422Q543 418 522 378T463 251T391 71Q385 55 378 6T357 -100Q341 -165 330 -190T303 -216Q286 -216 286 -188Q286 -138 340 32L346 51L347 69Q348 79 348 100Q348 257 291 317Q251 355 196 355Q148 355 108 329T51 260Q49 251 47 251Q45 249 31 249Z"></path></defs><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)"><use xlink:href="#E70-MJMATHI-3B1" x="0" y="0"></use><use xlink:href="#E70-MJMAIN-2C" x="640" y="0"></use><use xlink:href="#E70-MJMATHI-3B2" x="1084" y="0"></use><use xlink:href="#E70-MJMAIN-2C" x="1657" y="0"></use><use xlink:href="#E70-MJMATHI-3B3" x="2102" y="0"></use></g></svg></span><script type="math/tex">\alpha,\beta,\gamma</script>. The model will use the <code>percent full</code> data in the past 28 days to make predictions in the next 7 days.</p>
+<p>Here is one example for station #37, click <a href='https://dingma129.github.io/assets/figures/divvy/station_37.png'>here</a> for a large image.</p>
+<p><img src="https://dingma129.github.io/assets/figures/divvy/station_37.png" width="800"></p>
+<p>The above figure shows the prediction of <code>percent full</code> of station #37 in the next 7 days, along with a 90% confidence interval.</p>
+<p>&nbsp;</p>
+<h3>4.3 suggesting stations to borrow or return a bicycle</h3>
+<p>the last part of this project is to create a user interface that allows user to provide</p>
+<ul>
+<li>a GPS location</li>
+<li>a future time spot</li>
+<li>specify whether he/she wants to borrow or return a bicycle</li>
+
+</ul>
+<p>it will output a map of nearest stations with highest probability where the user can borrow or return a bicycle</p>
+<p>for example, with</p>
+<pre><code class='language-python' lang='python'>test_lat = 41.882 
+test_lon = -87.63
+future_time = &#39;2018-09-21 14:00:00&#39;
+finding_bikes = True
+</code></pre>
+<p>the model will output the following text and figure</p>
+<pre><code>At 2018-09-21 14:00:00 
+
+station 49 is predicted to be 78.39% full
+station 81 is predicted to be 59.13% full
+station 37 is predicted to be 64.15% full
+</code></pre>
+<embed src="https://dingma129.github.io/assets/active_image/divvy/finding_bikes_small.html" width="460" height="620">
+</body>
+</html>
