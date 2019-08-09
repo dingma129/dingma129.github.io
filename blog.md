@@ -2,5 +2,5 @@
 title: Blog
 layout: blog
 icon: fa-pencil
-order: 2
+order: 3
 ---
