@@ -58,7 +58,7 @@ This smooth spline can overfit quite hard, and it can actually fit any training 
 
 We will use LA Ozone dataset from [here](https://web.stanford.edu/~hastie/ElemStatLearn//datasets/LAozone.data). This data set contains 330 examples.
 
-<img src="https://dingma129.github.io/assets/figures/ESL/ozone_head.png" width="800">
+<center><img src="https://dingma129.github.io/assets/figures/ESL/ozone_head.png" width="500"></center>
 
 The task is to predict `ozone`(Upland Maximum Ozone) using the `dpg` feature only.
 
@@ -82,7 +82,7 @@ axes[1].set_xticks(ticks=range(3,15))
 axes[1].set_title("BIC");
 ```
 
-<img src="https://dingma129.github.io/assets/figures/ESL/ozone_aic.png" width="800">
+<center><img src="https://dingma129.github.io/assets/figures/ESL/ozone_aic.png" width="800"></center>
 
 Now let us compare `df = 3` and `df = 6`.
 
@@ -94,7 +94,7 @@ model6 = sm.OLS.from_formula('ozone ~ cr(dpg, df = 6)'.format(k), data=ozone_tra
 sm.stats.anova_lm(model3,model6)
 ```
 
-<img src="https://dingma129.github.io/assets/figures/ESL/ozone_anova.png" width="800">
+<center><img src="https://dingma129.github.io/assets/figures/ESL/ozone_anova.png" width="500"></center>
 
 With `p-value = 0.081816 > 0.05`, the model with `df = 6` is not significantly better than the model with `df=3`, so we should just choose `df=3`. 
 
@@ -115,7 +115,7 @@ plt.ylabel("RMSE")
 plt.xlabel("smoothing factor s");
 ```
 
-<img src="https://dingma129.github.io/assets/figures/ESL/ozone_smooth_spline.png" width="800">
+<center><img src="https://dingma129.github.io/assets/figures/ESL/ozone_smooth_spline.png" width="800"></center>
 
 By using validation set, we should choose `s=3000`.
 
@@ -123,4 +123,4 @@ By using validation set, we should choose `s=3000`.
 
 We can now plot 3 models above, natural cubic spline model with `df=3,6` and smooth spline model with `s=3000`. We can clearly see that natural cubic spline model with `df=6` slightly overfits, while the other two models fit pretty well to the dataset.
 
-<img src="https://dingma129.github.io/assets/figures/ESL/ozone_compare.png" width="800">
+<center><img src="https://dingma129.github.io/assets/figures/ESL/ozone_compare.png" width="800"></center>
