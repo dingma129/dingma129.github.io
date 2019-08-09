@@ -39,8 +39,8 @@ email: dingma129@gmail.com
 avatar: assets/images/avatar.jpg
 
 # You'll want to customize url and baseurl for your own site:
-baseurl: "dingma129.github.io" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "dingma129.github.io" # the base hostname & protocol for your site
 
 # Social settings
 facebook_url:
