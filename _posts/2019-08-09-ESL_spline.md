@@ -1,5 +1,5 @@
 ---
-title: Natural Spline and Smooth Spline
+title: Spline
 author: Ding Ma
 layout: post
 categories: [blog]
