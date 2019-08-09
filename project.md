@@ -1,6 +1,6 @@
 ---
 title: Project
-layout: blog
+layout: project
 icon: fa-tasks
 order: 2
 ---
