@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _posts = site.posts |  where_exp : "item", "item.categories contains 'blog'" | sort: 'date' | reverse -%}
+{%- assign _posts = site.posts |  where_exp : "item", "item.categories contains 'blog'" | sort: 'title' -%}
 {%- include header.html scrolly_nav=_posts -%}
 <!-- Main -->
 <div id="main">
@@ -10,7 +10,7 @@ layout: default
 			<ul>
 				<!-- Posts List -->
 				{%- for _post in _posts -%}
-					<li>{{_post.date | date: "%Y/%m  "}}<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a></li>
+					<li><a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>({{_post.date | date: "%Y/%m"}})</li>
 				{%- endfor -%}
 			</ul>
 		</div>
