@@ -4,7 +4,7 @@ author: Ding Ma
 layout: post
 categories: [blog]
 ---
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
+<span style="font-weight:bold;font-size:36px">0. introduction</span>
 
 In this blog, I will discuss about <span style="font-weight:bold"><u>natural cubic spline</u></span> and <span style="font-weight:bold"><u>smooth spline</u></span>.
 
@@ -16,9 +16,9 @@ Smooth splines are function estimates in order to balance a measure of error (fo
 
 ---
 
-<span style="font-weight:bold;font-size:32px">1. natural cubic spline and smooth spline</span>
+<span style="font-weight:bold;font-size:36px">1. natural cubic spline and smooth spline</span>
 
-<span style="font-weight:bold;font-size:24px">1.1 natural cubic spline</span>
+<span style="font-weight:bold;font-size:32px">1.1 natural cubic spline</span>
 
 To generalize linear regression, instead using polynomial regression
 
@@ -41,7 +41,7 @@ One disadvantage of cubic spline is that it's not stable for extreme values of X
 
 
 
-<span style="font-weight:bold;font-size:24px">1.2 smooth  spline</span>
+<span style="font-weight:bold;font-size:32px">1.2 smooth  spline</span>
 
 <span style="font-weight:bold"><u>Smooth spline</u></span> is a functions f which minimizes
 
@@ -52,9 +52,9 @@ This smooth spline can overfit quite hard, and it can actually fit any training 
 
 ---
 
-<span style="font-weight:bold;font-size:32px">2. examples</span>
+<span style="font-weight:bold;font-size:36px">2. examples</span>
 
-<span style="font-weight:bold;font-size:24px">2.1 LA Ozone Data (natural cubic spline and smooth spline)</span>
+<span style="font-weight:bold;font-size:32px">2.1 LA Ozone Data (natural cubic spline and smooth spline)</span>
 
 We will use LA Ozone dataset from [here](https://web.stanford.edu/~hastie/ElemStatLearn//datasets/LAozone.data). This data set contains 330 examples.
 
@@ -62,7 +62,7 @@ We will use LA Ozone dataset from [here](https://web.stanford.edu/~hastie/ElemSt
 
 The task is to predict `ozone`(Upland Maximum Ozone) using the `dpg` feature only.
 
-<span style="font-weight:bold;font-size:20px">2.1.1 natural cubic spline</span>
+<span style="font-weight:bold;font-size:28px">2.1.1 natural cubic spline</span>
 
 ```python
 aic_list=[]
@@ -98,7 +98,7 @@ sm.stats.anova_lm(model3,model6)
 
 With `p-value = 0.081816 > 0.05`, the model with `df = 6` is not significantly better than the model with `df=3`, so we should just choose `df=3`. 
 
-<span style="font-weight:bold;font-size:20px">2.1.2 smooth spline</span>
+<span style="font-weight:bold;font-size:28px">2.1.2 smooth spline</span>
 
 We can use scipy's implementation of smooth spline: `scipy.interpolate.UnivariateSpline`.
 
@@ -119,7 +119,7 @@ plt.xlabel("smoothing factor s");
 
 By using validation set, we should choose `s=3000`.
 
-<span style="font-weight:bold;font-size:20px">2.1.3 comparison</span>
+<span style="font-weight:bold;font-size:28px">2.1.3 comparison</span>
 
 We can now plot 3 models above, natural cubic spline model with `df=3,6` and smooth spline model with `s=3000`. We can clearly see that natural cubic spline model with `df=6` slightly overfits, while the other two models fit pretty well to the dataset.
 
