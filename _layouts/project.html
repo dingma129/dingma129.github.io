@@ -10,7 +10,7 @@ layout: default
 	{%- endif -%}
 	<!-- Posts List -->
 	{%- for _post in _posts -%}
-		{% if page.categories contains 'project' %}
+		{% if _post.categories contains 'project' %}
 			{%- capture _title -%}
 				<a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a>
 			{%- endcapture -%}
