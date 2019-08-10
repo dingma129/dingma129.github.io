@@ -60,4 +60,10 @@ remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
 
 future: true
+markdown: kramdown
+highlighter: rouge
 
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
