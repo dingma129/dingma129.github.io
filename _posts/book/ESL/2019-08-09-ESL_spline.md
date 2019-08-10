@@ -64,6 +64,7 @@ The task is to predict `ozone`(Upland Maximum Ozone) using the `dpg` feature onl
 <span style="font-weight:bold;font-size:28px">2.1.1 natural cubic spline</span>
 
 ```python
+import statsmodels.api as sm
 aic_list=[]
 bic_list=[]
 for k in range(3,15):
@@ -100,6 +101,7 @@ With `p-value = 0.081816 > 0.05`, the model with `df = 6` is not significantly b
 We can use scipy's implementation of smooth spline: `scipy.interpolate.UnivariateSpline`.
 
 ```python
+import scipy as sp
 error = []
 for s in range(1000,5000,10):
     cs= sp.interpolate.UnivariateSpline(ozone_train_sorted['dpg'], ozone_train_sorted['ozone'],s=s)
