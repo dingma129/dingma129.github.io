@@ -134,7 +134,11 @@ background-color: $background;
 
 code{
     background-color: "#282C34";
-    color: rgb(163, 19, 19);}
+    color: rgb(163, 19, 19);
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+    padding: 0.25em 0.325em;
+}
 pre {
     background-color: "#282C34";
     color: rgb(163, 19, 19);
