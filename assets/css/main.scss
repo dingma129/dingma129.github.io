@@ -5,21 +5,31 @@
 
 $background: #272822;
 
-pre {
-    border: solid 1px #ddd;
-    background: #fff;
-    padding: 0;
-    line-height: 23px;
-    margin-bottom: 30px;
-    white-space: pre;
-    overflow-x: auto;
-    word-break: inherit;
-    word-wrap: inherit;
-  }
-  
-  .highlight td {
-      padding: 8px 15px;
-  }
+/* Block code, highlight */
+figure.highlight pre {
+    /* ... */
+    code {
+        /* ... */
+        /* Use a counter to generate the line numbers */
+        counter-reset: code;
+        .div {
+            /* Increment the counter for each div */
+            counter-increment: code;
+            &:before {
+                content: counter(code);
+                /* Hacky, but necessary. Without these lines, single-digit line 
+                /* numbers will not line up with double-digit ones. Change width
+                /* to suit your font. */
+                width: 16px;
+                text-align: right;
+                /* Add a nice border */
+                display: inline-block;
+                padding-right: 0.25em;
+                border-right: 1px solid gray;
+            }
+        }
+    }
+}
 
 .highlight {
   background-color: $background;
@@ -149,14 +159,12 @@ pre {
 }
 
 code{
-  background-color: #fff;
+  background-color: white;
   color: black;
   margin: 0;
   width: 100%;
 }
 pre {
-  background-color: "#282C34";
+  background-color: white;
   color: black;
-  margin: 0;
-  width: 100%;
 }
