@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _posts = site.posts | sort: 'title' -%}
+{%- assign _posts = site.posts |  where_exp : "item", "item.categories contains 'blog'" | sort: 'title' -%}
 {%- include header.html scrolly_nav=_posts -%}
 <!-- Main -->
 <div id="main">
