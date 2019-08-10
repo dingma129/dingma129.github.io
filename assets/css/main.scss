@@ -5,38 +5,21 @@
 
 $background: #272822;
 
-
-.highlight table {
-    margin-bottom: 0;
-    font-size: 1em;
-    border: 0;
-
-    td {
-        padding: 0;
-        width: calc(100% - 1em);
-        border: 0;
-
-        /* line numbers*/
-        &.gutter,
-        &.rouge-gutter {
-        padding-right: 1em;
-        width: 1em;
-        color: red;
-        border-right: 1px solid red;
-        text-align: right;
-        }
-
-        /* code */
-        &.code,
-        &.rouge-code {
-        padding-left: 1em;
-        }
-    }
-
-    pre {
-        margin: 0;
-    }
-}
+pre {
+    border: solid 1px #ddd;
+    background: #fff;
+    padding: 0;
+    line-height: 23px;
+    margin-bottom: 30px;
+    white-space: pre;
+    overflow-x: auto;
+    word-break: inherit;
+    word-wrap: inherit;
+  }
+  
+  .highlight td {
+      padding: 8px 15px;
+  }
 
 .highlight {
   background-color: $background;
