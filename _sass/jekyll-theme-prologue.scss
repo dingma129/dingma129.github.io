@@ -158,13 +158,27 @@
 	}
 
 	code {
-		background-color: "#282C34";
-		color: whitesmoke;}
+		background: rgba(0, 0, 0, 0.05);
+		border-color: rgba(0, 0, 0, 0.2);
+		border-radius: 4px;
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		padding: 0.25em 0.325em;
+	}
 
 	pre {
-		background-color: "#282C34";
-		color: whitesmoke;
-	  }
+		-webkit-overflow-scrolling: touch;
+		font-family: "Courier New", monospace;
+		font-size: 0.9em;
+		tab-size: 4;
+		margin: 0 0 2em 0;
+		code {
+			display: block;
+			line-height: 1.5;
+			padding: 0.75em 1em;
+			overflow-x: auto;
+		}
+	}
 
 	blockquote {
 		margin-left: 1em;
