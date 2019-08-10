@@ -5,6 +5,12 @@
 
 $background: #272822;
 
+pre.highlight {
+    margin: 0;
+    padding: 1em;
+  }
+
+
 .highlight {
   background-color: $background;
 
@@ -134,8 +140,10 @@ $background: #272822;
 
 code{
   background-color: "#282C34";
-  color: whitesmoke;}
+  color: whitesmoke;
+}
 pre {
   background-color: "#282C34";
   color: whitesmoke;
+  width: 100%;
 }
