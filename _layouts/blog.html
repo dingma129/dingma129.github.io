@@ -10,7 +10,7 @@ layout: default
 			<ul>
 				<!-- Posts List -->
 				{%- for _post in _posts -%}
-					<li><a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a> ({{_post.date| date: "%Y/%m"}})</li>
+					<li><a href="{{- _post.url | absolute_url -}}">{{- _post.title -}}</a></li>
 				{%- endfor -%}
 			</ul>
 		</div>
