@@ -134,12 +134,10 @@ def model_performance(X_train,y_train,X_test,y_test,n_estimators=10,max_depth=3)
     roc_auc = auc(fpr,tpr)    
     return fpr,tpr,roc_auc
 ```
-For each kind of data set, I run both models 30 times with different initialization of data set. I also run the sample test of means of the 30 AUCs of two models.
+For each kind of data set, I run both models 30 times with different initialization of data set. I also run the mean test of 30 AUCs of those two models.
 
-<center><img src="https://dingma129.github.io/assets/figures/ESL/xgb_table.png" width="600"></center>
-<center><img src="https://dingma129.github.io/assets/figures/ESL/xgb_compare.png" width="800"></center>
-
-
+<center><img src="https://dingma129.github.io/assets/figures/ESL/xgb_table.png" width="700"></center>
+<center><img src="https://dingma129.github.io/assets/figures/ESL/xgb_compare.png" width="1000"></center>
 
 <span style="font-weight:bold;font-size:36px">3. conclusions</span>
 
