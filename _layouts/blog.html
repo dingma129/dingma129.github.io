@@ -2,7 +2,7 @@
 layout: default
 ---
 {%- assign _posts = site.posts |  where_exp : "item", "item.categories contains 'blog'" | sort: 'title' -%}
-{%- include header.html scrolly_nav=_posts -%}
+{%- include header.html -%}
 <!-- Main -->
 <div id="main">
 	<article class="shade-two">
