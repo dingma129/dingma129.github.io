@@ -11,7 +11,7 @@ categories: [blog]
 In this blog, I will introduce how to use Stanford CoreNLP wrapper in Spark. It wraps Stanford CoreNLP annotators as Spark DataFrame functions following the simple APIs introduced in Stanford CoreNLP 3.7.0. Detailed information can be found [<span style="color:blue">here</span>](https://github.com/databricks/spark-corenlp). 
 
 In order to use this package, remember to include the following parameter when running Spark.
-```scala
+```javascript
 --packages databricks:spark-corenlp:0.4.0-spark2.4-scala2.11 --jars stanford-corenlp-3.9.2-models.jar
 ```
 The packages can be imported as
@@ -47,11 +47,11 @@ root
  |-- label: integer (nullable = true)
 ```
 
-In order to show how to use Stanford CoreNLP in Spark, I will simply the task as follows:
+In order to show how to use Stanford CoreNLP in Spark, I will simplify the task as follows:
 
-Instead of using all the features from the dataset, I will only use the "body" part from the webpage to make the prediction.
+Instead of using all the features from the dataset, I will only use the "body" tag from the webpages to predict the labels.
 
-So the first step is to extract the body from the`boilerplate` column in the dataset.
+So the first step is to extract the "body" tag from the `boilerplate` column in the dataset.
 
 ---
 <span style="font-weight:bold;font-size:32px">2. Preprocessing</span>
@@ -151,6 +151,7 @@ df1Train.cache()
 df1Test.cache()
 ```
 Now I will train 4 different models.
+
 <span style="font-weight:bold;font-size:28px">4.1 Tokenization + Logistic Regression</span>
 ```scala
 import org.apache.spark.ml.feature.{StopWordsRemover, HashingTF, IDF}
@@ -240,8 +241,8 @@ accuracy(test)	 0.7835433654558932
 
 <span style="font-weight:bold;font-size:28px">4.5 Lemmatization + LightGBM Classifier</span>
 
-I have already discussed how to use `LightGBM` in Python. Now I will use show how to use LightGBM for Scala in Spark. The documentation can be found [<span style="color: blue">here</span>](https://github.com/Azure/mmlspark). To use the packages, just simply include the following parameters when running spark.
-```scala
+I have already discussed how to use `LightGBM` in Python in this [<span style="color:blue">blog</span>](https://dingma129.github.io/blog/2019/08/10/lightGBM.html). Now I will show how to use `LightGBM` for Scala in Spark. The documentation can be found [<span style="color: blue">here</span>](https://github.com/Azure/mmlspark). To use the packages, just simply include the following parameters when running Spark.
+```javascript
 --packages com.microsoft.ml.spark:mmlspark_2.11:0.18.1
 ```
 Now we are ready to build and train a LightGBMClassifier model using this package.
@@ -261,28 +262,12 @@ println(f"accuracy(test)\t ${mce.evaluate(model5.transform(df1Test))}")
 accuracy(train)	 0.9392584311533445
 accuracy(test)	 0.8039364118092355
 ```
-LightGBMClassifier model obtained the best result in a much short time comparing to the other 4 models above.
+LightGBMClassifier model obtained the best result in a much shorter time comparing to the other 4 models above.
 
 ---
 <span style="font-weight:bold;font-size:32px">5. Summary</span>
 
-1. Spark sql function `from_json` provides a function to parse a String column in Json format.
+1. Spark sql function `from_json` provides a function to parse a `StringType` column into `StructType corresponding to the Json structure.
 2. Stanford CoreNLP wrapper in Spark provides simple Spark DataFrame functions `tokenize` and `lemma` for tokenization and lemmatization.
 3. The `StopWordsRemover`, `HashingTF`, `IDF` function in `SparkML` Library can be used to remove stop words and compute TF-IDF of a list of tokens.
-4. `MMLSpark` Library adds many deep learning and data science tools to the Spark ecosystem, including seamless integration of Spark Machine Learning pipelines with Microsoft Cognitive Toolkit (CNTK), LightGBM and OpenCV. 
-
-
-
-
-
-
-
-
-
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
-<span style="font-weight:bold;font-size:32px">0. Introduction</span>
+4. `MMLSpark` Library adds many deep learning and data science tools to the Spark ecosystem, including `CNTK`, `LightGBM` and `OpenCV`. 
