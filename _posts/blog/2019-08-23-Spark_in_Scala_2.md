@@ -12,7 +12,7 @@ In this blog, I will introduce how to use `MMLSpark` to perform some NLP tasks. 
 ```javascript
 --packages com.microsoft.ml.spark:mmlspark_2.11:0.18.1
 ```
-
+---
 <span style="font-weight:bold;font-size:32px">1. Dataset and Task</span>
 
 I will use Crowdflower Search Results Relevance Dataset from [<span style="color: blue">Kaggle</span>](https://www.kaggle.com/c/crowdflower-search-relevance/data). The dataset includes the following features:
@@ -25,6 +25,7 @@ I will use Crowdflower Search Results Relevance Dataset from [<span style="color
 
 The task is to predict the `median_relevance` using other features. To simplify the problem, I will only use `query` and `product_title` in this blog. Both of those two features are NLP features. I will treat this problem as a multi-class classification problem here.
 
+---
 <span style="font-weight:bold;font-size:32px">2. Load as a DataFrame</span>
 
 The original data is not well formatted (a lot of commas in the text column). So instead of using `spark.read.csv`, I will read the file line by line using `scala.io.Source`.
@@ -186,7 +187,7 @@ val dfTest2 = assembler.transform(dfTest1).withColumn("label",$"med_relevance"-1
 dfTrain2.cache()
 dfTest2.cache()
 ```
-
+---
 <span style="font-weight:bold;font-size:32px">4. Training Models</span>
 
 In order to show how to use ensemble modeling, I will train 3 different models and ensemble them as a single ensemble model.
@@ -211,10 +212,11 @@ val lightGBMModel = lightGBM.fit(dfTrain2)
 val nb = new NaiveBayes().setSmoothing(5.0)
 val nbModel = nb.fit(dfTrain2)
 ```
-
+---
 <span style="font-weight:bold;font-size:32px">5. Evaluation</span>
 
 <span style="font-weight:bold;font-size:28px">5.1 Two Metrics</span>
+
 Before ensembling them, I will first evaluate model performances using two metrics. 
 1. accuracy
 2. [<span style="color: blue">quadratic weighted kappa</span>](https://en.wikipedia.org/wiki/Cohen's_kappa): the original Kaggle competition uses this metric. Cohen's kappa coefficient is a statistic that is used to measure inter-rater reliability (and also Intra-rater reliability) for qualitative (categorical) items. It is generally thought to be a more robust measure than simple percent agreement calculation, as it takes into account the possibility of the agreement occurring by chance. The weighted kappa allows disagreements to be weighted differently and is especially useful when codes are ordered.
@@ -252,7 +254,7 @@ def computeKappa(c: Matrix, pal: RDD[(Double, Double)]): Double = {
 ```scala
 import org.apache.spark.mllib.evaluation.MulticlassMetrics
 // by setting model = lrModel, lightGBMModel, nbModel
-// df = dfTrain2, dfTest2
+// and setting df = dfTrain2, dfTest2
 val pal = lrModel.transform(df).select($"label".cast("Double"),$"prediction").rdd.map{x => (x.getDouble(0),x.getDouble(1))}
 val metrics = new MulticlassMetrics(pal)
 println(metrics.accuracy)
@@ -263,10 +265,12 @@ println(computeKappa(metrics.confusionMatrix,pal))
 0.9163672002613525  // lrModel
 0.8691604050963737  // lightGBMModel
 0.7641293694870958  // nbModel
+
 // accuracy(test)
 0.6565589980224127  // lrModel
 0.6235992089650626  // lightGBMModel
 0.6394199077125906  // nbModel
+
 
 // quadratic weighted kappa(train)
 0.8941728860121952  // lrModel
@@ -278,19 +282,22 @@ println(computeKappa(metrics.confusionMatrix,pal))
 0.42080421530244017  // lightGBMModel
 0.48092931399223104  // nbModel
 ```
-We can see that we have already obtained a descent result using only `query` and `title` columns.
+We can see that we have already obtained a descent result (but overfitting very hard) using only `query` and `title` columns.
 
+---
 <span style="font-weight:bold;font-size:32px">6. Ensembling Model</span>
 
-I will ensemble the above 3 models in 2 different ways.
-1. take a majority vote among the predictions
-2. take an average over the predicted probabilities
+The above 3 models can be ensembled in the following 2 different ways:
+* take a majority vote among the predictions
+* take an average over the predicted probabilities
 
 I will only present the evaluations on test set here.
 ```javascript
 // accuracy(test)
 0.6704021094264997  // majority vote
 0.6591957811470006  // average probability
+
+
 // quadratic weighted kappa(test)
 0.5247437131596568  // majority vote
 0.5119220483945226  // average probability
@@ -301,8 +308,8 @@ We can see that both methods improve the result quite a bit.
 
 In order to further improve the result, we can
 1. instead of using `query` and `title` columns only, `description` can also be used
-2. text can be parsed more carefully (such as lemmatization)
-3. word vectors (such as word2vec, doc2vec, GloVe) can be used instead of TF-IDF
-4. all the models above overfit quite hard, so a dimension reduction technique (such as PCA) can be used to reduce the dimension of the feature space
+2. text can be parsed more carefully (such as `lemmatization`)
+3. word vectors (such as `word2vec`, `doc2vec`, `GloVe`) can be used instead of `TF-IDF`
+4. all the models above overfit quite hard, so a dimension reduction technique (such as `PCA`) can be used to reduce the dimension of the feature space
 5. model hyperparameters can be fine-tuned to achieve better result 
-6. ensemble a large variety kinds of models instead of only 3 as above
+6. ensemble a large variety kinds of models instead of using only 3 models as above
