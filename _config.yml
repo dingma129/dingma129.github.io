@@ -61,8 +61,8 @@ collections: [sections]
 
 future: true
 markdown: kramdown
-# highlighter: rouge
-highlighter: none
+highlighter: rouge
+#highlighter: none
 
 kramdown:
   input: GFM
