@@ -6,7 +6,7 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Blogs by Language"
+  - title: "Blogs by Programming Language"
     url: /by-category/  
   - title: "Blogs by Topic"
     url: /by-tag/
