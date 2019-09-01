@@ -1,6 +1,6 @@
 ---
 title: "Cat1"
 layout: category
-permalink: /categories/cat1/
+permalink: /by-category/cat1/
 taxonomy: cat1
 ---

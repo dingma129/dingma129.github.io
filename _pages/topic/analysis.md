@@ -1,6 +1,6 @@
 ---
 title: "T1"
 layout: tag
-permalink: /tags/t1/
+permalink: /by-tag/t1/
 taxonomy: t1
 ---

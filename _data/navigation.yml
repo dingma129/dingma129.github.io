@@ -7,9 +7,9 @@ main:
   # - title: "Sample Posts"
   #   url: /year-archive/
   - title: "Posts by Language"
-    url: /categories/  
+    url: /by-category/  
   - title: "Posts by Topic"
-    url: /tags/  
+    url: /by-tag/  
   #- title: "Posts" 
   #  url: /page-archive/
   #- title: "Sample Collections"   # can be used to archive posts later
