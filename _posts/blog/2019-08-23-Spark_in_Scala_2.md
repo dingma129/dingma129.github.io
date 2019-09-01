@@ -1,5 +1,5 @@
 ---
-title: "Spark in Scala (part 2)"
+title: "Spark in Scala - 2"
 subtitle: NLP with MMLSpark
 layout: splash
 excerpt: "NLP with MMLSpark"
@@ -31,7 +31,7 @@ The task is to predict the `median_relevance` using other features. To simplify 
 
 The original data is not well formatted (a lot of commas in the text column). So instead of using `spark.read.csv`, I will read the file line by line using `scala.io.Source`.
 
-```javascript
+```
 // using spark.read.csv leads to a DataFrame with a lot of bad entries
 +---+--------------------+--------------------+--------------------+----------------+------------------+
 | id|               query|       product_title| product_description|median_relevance|relevance_variance|
@@ -81,7 +81,7 @@ val dfRaw = spark.createDataFrame(sc.parallelize(lines,2),schema=schema)
 dfRaw.show(5)
 ```
 Now the DataFrame looks much better.
-```javascript
+```
 +---+--------------------+--------------------+--------------------+-------------+-------------+
 | id|               query|               title|         description|med_relevance|var_relevance|
 +---+--------------------+--------------------+--------------------+-------------+-------------+
@@ -159,7 +159,7 @@ val dfTest1 = tFeaturizer2.transform(tFeaturizer1.transform(qFeaturizer2.transfo
 dfTrain1.show(5)
 ```
 Now we will have 4 sparse vector columns, 2 integer columns and 1 label column.
-```javascript
+```
 +--------------------+--------------------+--------------------+--------------------+-------------+---+---+
 |          qFeatures1|          tFeatures1|          qFeatures2|          tFeatures2|med_relevance| qt| qd|
 +--------------------+--------------------+--------------------+--------------------+-------------+---+---+
@@ -233,7 +233,6 @@ def computeKappa(c: Matrix, pal: RDD[(Double, Double)]): Double = {
     val n = o.size
     // weight
     val w = Array.fill(n,n)(0.0)
-    // E
     val e = Array.fill(n,n)(0.0)    
     for (i <- 0 until n; j <- 0 until n) {w(i)(j) = math.pow(i-j,2)/math.pow(n-1,2)}
     val aHist = Array.fill(n)(0.0)
@@ -261,7 +260,7 @@ val metrics = new MulticlassMetrics(pal)
 println(metrics.accuracy)
 println(computeKappa(metrics.confusionMatrix,pal))
 ```
-```javascript
+```
 // accuracy(train)
 0.9163672002613525  // lrModel
 0.8691604050963737  // lightGBMModel
@@ -293,7 +292,7 @@ The above 3 models can be ensembled in the following 2 different ways:
 * take an average over the predicted probabilities
 
 I will only present the evaluations on test set here.
-```javascript
+```
 // accuracy(test)
 0.6704021094264997  // majority vote
 0.6591957811470006  // average probability

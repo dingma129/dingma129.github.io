@@ -1,9 +1,9 @@
 ---
-title: "Spark in Scala (part 1)"
+title: "Spark in Scala - 1"
 layout: splash
 excerpt: "NLP with Standford CoreNLP"
 categories: [Scala]
-tags: [NLP, Boosting]
+tags: [NLP, Boosting, Spark]
 ---
 
 <span style="font-weight:bold;font-size:32px">0. Introduction</span>
@@ -72,7 +72,7 @@ val df1raw = spark.read
 df1raw.show(5)
 ```
 The DataFrame `df1raw` looks like the following.
-```javascript
+```
 +--------------------+-----+--------------------+
 |         boilerplate|label|           cleanJson|
 +--------------------+-----+--------------------+
@@ -102,7 +102,7 @@ val df1 = df1raw
 df1.show(5)
 ```
 After parsing the Json column and extracting `body` from it, the DataFrame `df1` looks like the following.
-```javascript
+```
 +--------------------+-----+
 |                body|label|
 +--------------------+-----+
@@ -127,7 +127,7 @@ val df1Token = df1
 df1Token.show(5)
 ```
 After tokenization and lemmatization, the DataFrame `df1Token` looks like the following.
-```javascript
+```
 +--------------------+-----+--------------------+--------------------+
 |                body|label|               words|              lemmas|
 +--------------------+-----+--------------------+--------------------+
@@ -181,7 +181,7 @@ val mce = new MulticlassClassificationEvaluator()
 println(f"accuracy(train)\t ${mce.evaluate(model1.transform(df1Train))}")
 println(f"accuracy(test)\t ${mce.evaluate(model1.transform(df1Test))}")
 ```
-```javascript
+```
 accuracy(train)	 0.8421052631578947
 accuracy(test)	 0.7798369162342476
 ```
@@ -198,7 +198,7 @@ val model2 = pipeline2.fit(df1Train)
 println(f"accuracy(train)\t ${mce.evaluate(model2.transform(df1Train))}")
 println(f"accuracy(test)\t ${mce.evaluate(model2.transform(df1Test))}")
 ```
-```javascript
+```
 accuracy(train)	 0.8464131859898858
 accuracy(test)	 0.7805782060785768
 ```
@@ -216,7 +216,7 @@ val model3 = pipeline3.fit(df1Train)
 println(f"accuracy(train)\t ${mce.evaluate(model3.transform(df1Train))}")
 println(f"accuracy(test)\t ${mce.evaluate(model3.transform(df1Test))}")
 ```
-```javascript
+```
 accuracy(train)	 0.8029593556845851
 accuracy(test)	 0.7731653076352853
 ```
@@ -234,7 +234,7 @@ val model4 = pipeline4.fit(df1Train)
 println(f"accuracy(train)\t ${mce.evaluate(model4.transform(df1Train))}")
 println(f"accuracy(test)\t ${mce.evaluate(model4.transform(df1Test))}")
 ```
-```javascript
+```
 accuracy(train)	 0.7969657239183368
 accuracy(test)	 0.7835433654558932
 ```
@@ -258,7 +258,7 @@ val model5 = pipeline5.fit(df1Train)
 println(f"accuracy(train)\t ${mce.evaluate(model5.transform(df1Train))}")
 println(f"accuracy(test)\t ${mce.evaluate(model5.transform(df1Test))}")
 ```
-```javascript
+```
 accuracy(train)	 0.9392584311533445
 accuracy(test)	 0.8039364118092355
 ```
