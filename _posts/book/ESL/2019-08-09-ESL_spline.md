@@ -57,7 +57,7 @@ This smooth spline can overfit quite hard, and it can actually fit any training 
 
 <span style="font-weight:bold;font-size:32px">2.1 LA Ozone Data (natural cubic spline and smooth spline)</span>
 
-We will use LA Ozone dataset from [here](https://web.stanford.edu/~hastie/ElemStatLearn//datasets/LAozone.data). This data set contains 330 examples.
+We will use LA Ozone dataset from [<span style="color:blue">here</span>](https://web.stanford.edu/~hastie/ElemStatLearn//datasets/LAozone.data). This data set contains 330 examples.
 
 <center><img src="https://dingma129.github.io/assets/figures/ESL/ozone_head.png" width="500"></center>
 The task is to predict `ozone`(Upland Maximum Ozone) using the `dpg` feature only.
