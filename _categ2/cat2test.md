@@ -1,7 +1,7 @@
 ---
 title: cat2test
 subtitle: test2
-layout: category
+layout: collection
 taxonomy: cat2
 ---
 test
