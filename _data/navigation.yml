@@ -13,8 +13,8 @@ main:
   - title: "posts by year"
     url: /year-archive/
   - title: "posts by cccc"
-    url: /category-archive/  
+    url: /categories/  
   - title: "posts by tttt"
-    url: /tag-archive/  
+    url: /tags/  
   # - title: "Sitemap"
   #   url: /sitemap/
