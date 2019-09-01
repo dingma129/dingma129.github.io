@@ -1,7 +1,7 @@
 ---
-title: cat1test
-subtitle: test1.1
-categories: 
-	- cat1
+title: cat2test
+subtitle: test2
+layout: category
+taxonomy: cat2
 ---
 test
