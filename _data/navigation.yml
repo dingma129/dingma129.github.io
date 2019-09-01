@@ -12,5 +12,9 @@ main:
     url: /collection-archive/
   - title: "posts by year"
     url: /year-archive/
+  - title: "posts by cccc"
+    url: /category-archive/  
+  - title: "posts by tttt"
+    url: /tag-archive/  
   # - title: "Sitemap"
   #   url: /sitemap/
