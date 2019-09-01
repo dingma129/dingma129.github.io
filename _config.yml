@@ -292,9 +292,6 @@ collections:
   categ3:
     output: true
     permalink: /:collection/:path/
-  categ4:
-    output: true
-    permalink: /:collection/:path/
 
 
 # Defaults
@@ -315,7 +312,6 @@ collections:
       type: pages
     values:
       layout: single
-
   # _cat1
   - scope:
       path: ""
