@@ -10,5 +10,7 @@ main:
     url: /page-archive/
   - title: "Sample Collections"
     url: /collection-archive/
+  - title: "my Collections"
+    url: /all-collections/
   # - title: "Sitemap"
   #   url: /sitemap/

@@ -278,6 +278,11 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  categ3:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -292,3 +297,9 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: categ3
+    values:
+      layout: single
+      author_profile: false
