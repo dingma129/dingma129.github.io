@@ -282,16 +282,16 @@ compress_html:
 
 
 # Collections
-collections:
-  categ1:
-    output: true
-    permalink: /:collection/:path/
-  categ2:
-    output: true
-    permalink: /:collection/:path/
-  categ3:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+ # categ1:
+  #  output: true
+  #  permalink: /:collection/:path/
+  #categ2:
+  #  output: true
+  #  permalink: /:collection/:path/
+  #categ3:
+  #  output: true
+  #  permalink: /:collection/:path/
 
 
 # Defaults
