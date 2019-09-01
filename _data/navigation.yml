@@ -6,15 +6,16 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Posts"
-    url: /page-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "posts by year"
-    url: /year-archive/
-  - title: "posts by cccc"
+  - title: "Posts by Language"
     url: /categories/  
-  - title: "posts by tttt"
+  - title: "Posts by Topic"
     url: /tags/  
+  #- title: "Posts" 
+  #  url: /page-archive/
+  #- title: "Sample Collections"   # can be used to archive posts later
+  #  url: /collection-archive/
+  #- title: "posts by year"
+  #  url: /year-archive/
+  
   # - title: "Sitemap"
   #   url: /sitemap/
