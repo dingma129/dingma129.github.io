@@ -241,7 +241,7 @@ accuracy(test)	 0.7835433654558932
 
 <span style="font-weight:bold;font-size:28px">4.5 Lemmatization + LightGBM Classifier</span>
 
-I have already discussed how to use `LightGBM` in Python in this [<span style="color:blue">blog</span>](https://dingma129.github.io/blog/2019/08/10/lightGBM.html). Now I will show how to use `LightGBM` for Scala in Spark. The documentation can be found [<span style="color: blue">here</span>](https://github.com/Azure/mmlspark). To use the packages, just simply include the following parameters when running Spark.
+I have already discussed how to use `LightGBM` in Python in this [<span style="color:blue">blog</span>](/python/lightGBM/). Now I will show how to use `LightGBM` for Scala in Spark. The documentation can be found [<span style="color: blue">here</span>](https://github.com/Azure/mmlspark). To use the packages, just simply include the following parameters when running Spark.
 ```javascript
 --packages com.microsoft.ml.spark:mmlspark_2.11:0.18.1
 ```
