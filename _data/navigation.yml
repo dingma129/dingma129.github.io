@@ -17,5 +17,5 @@ main:
   #- title: "posts by year"
   #  url: /year-archive/
   
-  # - title: "Sitemap"
-  #   url: /sitemap/
+   - title: "Sitemap"
+     url: /sitemap/
