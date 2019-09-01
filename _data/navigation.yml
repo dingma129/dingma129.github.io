@@ -7,7 +7,7 @@ main:
   # - title: "Sample Posts"
   #   url: /year-archive/
   - title: "Posts"
-    url: /posts/
+    url: /page-archive/
   - title: "Sample Collections"
     url: /collection-archive/
   - title: "my Collections"

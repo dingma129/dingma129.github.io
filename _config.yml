@@ -280,6 +280,12 @@ compress_html:
 
 # Collections
 collections:
+  categ1:
+    output: true
+    permalink: /:collection/:path/
+  categ2:
+    output: true
+    permalink: /:collection/:path/
   categ3:
     output: true
     permalink: /:collection/:path/
@@ -297,6 +303,18 @@ defaults:
       comments: # true
       share: true
       related: true
+  - scope:
+      path: ""
+      type: categ1
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+      type: categ2
+    values:
+      layout: single
+      author_profile: false
   - scope:
       path: ""
       type: categ3
