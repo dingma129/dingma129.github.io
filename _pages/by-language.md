@@ -1,5 +1,5 @@
 ---
-title: "Posts by Language"
+title: "Blogs by Language"
 permalink: /by-category/
 layout: categories
 author_profile: true

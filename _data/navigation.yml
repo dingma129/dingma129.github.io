@@ -1,15 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide(to be removed)"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "Quick-Start Guide(to be removed)"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Posts by Language"
+  - title: "Blogs by Language"
     url: /by-category/  
-  - title: "Posts by Topic"
-    url: /by-tag/  
+  - title: "Blogs by Topic"
+    url: /by-tag/
   #- title: "Posts" 
   #  url: /page-archive/
   #- title: "Sample Collections"   # can be used to archive posts later
