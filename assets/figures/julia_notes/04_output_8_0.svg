@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="500" viewBox="0 0 2400 2000">
+<defs>
+  <clipPath id="clip3900">
+    <rect x="0" y="0" width="2400" height="2000"/>
+  </clipPath>
+</defs>
+<polygon clip-path="url(#clip3900)" points="
+0,2000 2400,2000 2400,0 0,0 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<defs>
+  <clipPath id="clip3901">
+    <rect x="480" y="0" width="1681" height="1681"/>
+  </clipPath>
+</defs>
+<polygon clip-path="url(#clip3900)" points="
+319.332,1875.09 2147.18,1875.09 2147.18,47.2441 319.332,47.2441 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<defs>
+  <clipPath id="clip3902">
+    <rect x="319" y="47" width="1829" height="1829"/>
+  </clipPath>
+</defs>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  345.197,1341.2 1259.12,791.765 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1259.12,791.765 1259.12,62.7942 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  526.96,1450.48 1440.88,901.038 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1440.88,901.038 1440.88,172.068 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  708.724,1559.75 1622.65,1010.31 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1622.65,1010.31 1622.65,281.341 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  890.487,1669.02 1804.41,1119.59 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1804.41,1119.59 1804.41,390.615 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1072.25,1778.3 1986.17,1228.86 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1986.17,1228.86 1986.17,499.888 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  345.197,1310.1 1259.12,1859.54 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  345.197,1310.1 345.197,581.132 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  452.971,1245.31 1366.89,1794.75 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  452.971,1245.31 452.971,516.34 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  560.745,1180.52 1474.67,1729.96 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  560.745,1180.52 560.745,451.548 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  668.519,1115.73 1582.44,1665.16 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  668.519,1115.73 668.519,386.756 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  776.293,1050.93 1690.22,1600.37 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  776.293,1050.93 776.293,321.963 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  884.067,986.142 1797.99,1535.58 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  884.067,986.142 884.067,257.171 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  991.841,921.349 1905.77,1470.79 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  991.841,921.349 991.841,192.379 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1099.62,856.557 2013.54,1406 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1099.62,856.557 1099.62,127.587 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1207.39,791.765 2121.31,1341.2 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1207.39,791.765 1207.39,62.7942 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  319.332,1204.16 1233.26,654.72 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1233.26,654.72 2147.18,1204.16 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  319.332,1052.29 1233.26,502.851 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1233.26,502.851 2147.18,1052.29 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  319.332,900.42 1233.26,350.982 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1233.26,350.982 2147.18,900.42 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  319.332,748.551 1233.26,199.113 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#ededed; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1233.26,199.113 2147.18,748.551 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  319.332,596.683 1233.26,47.2441 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#cccccc; stroke-width:2; stroke-opacity:0.1; fill:none" points="
+  1233.26,47.2441 2147.18,596.683 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  271.583,1189.79 267.957,1189.25 265.539,1192.74 264.33,1200.24 264.33,1205.18 265.539,1214.13 267.957,1220.52 271.583,1224.35 274.001,1225.8 277.627,1226.33 
+  280.045,1222.85 281.254,1215.35 281.254,1210.41 280.045,1201.46 277.627,1195.07 274.001,1191.24 271.583,1189.79 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  230.483,861.34 218.395,854.073 217.186,868.158 218.395,867.239 222.022,867.773 225.648,869.954 229.275,873.779 231.692,878.524 232.901,884.188 232.901,887.48 
+  231.692,891.69 229.275,893.528 225.648,892.994 222.022,890.813 218.395,886.987 217.186,884.615 215.978,880.597 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  247.407,871.515 243.78,870.98 241.363,874.464 240.154,881.966 240.154,886.903 241.363,895.858 243.78,902.249 247.407,906.075 249.824,907.528 253.451,908.063 
+  255.868,904.579 257.077,897.077 257.077,892.14 255.868,883.185 253.451,876.794 249.824,872.968 247.407,871.515 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  271.583,886.049 267.957,885.515 265.539,888.998 264.33,896.5 264.33,901.437 265.539,910.393 267.957,916.783 271.583,920.609 274.001,922.063 277.627,922.597 
+  280.045,919.113 281.254,911.611 281.254,906.674 280.045,897.719 277.627,891.328 274.001,887.503 271.583,886.049 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  195.428,543.111 197.845,542.918 201.472,540.161 201.472,574.721 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  223.23,553.242 219.604,552.708 217.186,556.192 215.978,563.693 215.978,568.631 217.186,577.586 219.604,583.977 223.23,587.802 225.648,589.256 229.275,589.79 
+  231.692,586.307 232.901,578.805 232.901,573.868 231.692,564.912 229.275,558.522 225.648,554.696 223.23,553.242 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  247.407,567.777 243.78,567.242 241.363,570.726 240.154,578.228 240.154,583.165 241.363,592.12 243.78,598.511 247.407,602.337 249.824,603.79 253.451,604.325 
+  255.868,600.841 257.077,593.339 257.077,588.402 255.868,579.447 253.451,573.056 249.824,569.23 247.407,567.777 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  271.583,582.311 267.957,581.777 265.539,585.261 264.33,592.762 264.33,597.7 265.539,606.655 267.957,613.045 271.583,616.871 274.001,618.325 277.627,618.859 
+  280.045,615.376 281.254,607.874 281.254,602.937 280.045,593.981 277.627,587.591 274.001,583.765 271.583,582.311 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  319.332,1325.65 319.332,1204.16 301.053,1215.15 319.332,1204.16 319.332,1052.29 310.192,1057.78 319.332,1052.29 319.332,900.42 301.053,911.409 319.332,900.42 
+  319.332,748.551 310.192,754.046 319.332,748.551 319.332,596.683 301.053,607.671 319.332,596.683 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  441.564,1502.48 463.986,1489 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  468.237,1466.09 475.527,1485.45 494.212,1474.22 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  468.237,1466.09 497.857,1483.9 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  805.091,1721.03 827.513,1707.55 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  827.605,1695.62 826.195,1694.77 824.619,1692.33 824.455,1690.73 825.535,1688.39 830.518,1685.39 834.42,1684.74 837.076,1684.84 841.143,1685.79 843.963,1687.48 
+  845.539,1689.93 847.279,1693.97 848.926,1709.94 866.366,1699.45 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  319.332,1325.65 345.197,1341.2 336.058,1346.7 345.197,1341.2 526.96,1450.48 508.682,1461.47 526.96,1450.48 708.724,1559.75 699.584,1565.24 708.724,1559.75 
+  890.487,1669.02 872.208,1680.01 890.487,1669.02 1072.25,1778.3 1063.11,1783.79 1072.25,1778.3 1233.26,1875.09 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1320.34,1876.66 1315.19,1875.26 1308.47,1876.3 1300.17,1879.8 1295.94,1882.34 1290.13,1887.33 1288.39,1891.37 1290.72,1894.46 1293.21,1895.96 1298.35,1897.36 
+  1305.08,1896.31 1313.38,1892.82 1317.61,1890.28 1323.41,1885.29 1325.15,1881.25 1322.83,1878.16 1320.34,1876.66 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1526.5,1748.22 1530.41,1748.87 1538.37,1748.57 1508.76,1766.38 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1738.15,1617.98 1739.56,1617.14 1743.63,1616.19 1746.28,1616.09 1750.19,1616.74 1755.17,1619.73 1756.25,1622.08 1756.08,1623.68 1754.51,1626.12 1751.69,1627.82 
+  1747.62,1628.76 1740.9,1629.81 1714.34,1630.8 1731.78,1641.29 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1962,1484.91 1975.7,1493.15 1956.94,1495.44 1960.68,1497.68 1961.76,1500.03 1961.59,1501.63 1958.61,1504.92 1955.79,1506.61 1950.31,1508.41 1945,1508.61 
+  1939.85,1507.21 1936.11,1504.96 1933.79,1501.87 1933.95,1500.27 1935.53,1497.83 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  2187.51,1361.31 2155.31,1365.7 2173.99,1376.93 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  2187.51,1361.31 2157.89,1379.12 
+  "/>
+<polyline clip-path="url(#clip3900)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1233.26,1875.09 1259.12,1859.54 1277.4,1870.53 1259.12,1859.54 1366.89,1794.75 1376.03,1800.24 1366.89,1794.75 1474.67,1729.96 1492.95,1740.95 1474.67,1729.96 
+  1582.44,1665.16 1591.58,1670.66 1582.44,1665.16 1690.22,1600.37 1708.5,1611.36 1690.22,1600.37 1797.99,1535.58 1807.13,1541.07 1797.99,1535.58 1905.77,1470.79 
+  1924.04,1481.78 1905.77,1470.79 2013.54,1406 2022.68,1411.49 2013.54,1406 2121.31,1341.2 2139.59,1352.19 2121.31,1341.2 2147.18,1325.65 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1233.26,596.38 1137.46,697.694 1218.24,736.624 1314.04,623.709 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1233.26,596.38 1137.46,697.694 1218.24,736.624 1314.04,623.709 1233.26,596.38 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1314.04,623.709 1218.24,736.624 1299.02,767.902 1394.82,643.388 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1314.04,623.709 1218.24,736.624 1299.02,767.902 1394.82,643.388 1314.04,623.709 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1394.82,643.388 1299.02,767.902 1379.81,791.53 1475.61,655.415 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1394.82,643.388 1299.02,767.902 1379.81,791.53 1475.61,655.415 1394.82,643.388 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1475.61,655.415 1379.81,791.53 1460.59,807.507 1556.39,659.792 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1475.61,655.415 1379.81,791.53 1460.59,807.507 1556.39,659.792 1475.61,655.415 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1556.39,659.792 1460.59,807.507 1541.37,815.833 1637.17,656.518 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1556.39,659.792 1460.59,807.507 1541.37,815.833 1637.17,656.518 1556.39,659.792 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1637.17,656.518 1541.37,815.833 1622.16,816.508 1717.96,645.594 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1637.17,656.518 1541.37,815.833 1622.16,816.508 1717.96,645.594 1637.17,656.518 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1717.96,645.594 1622.16,816.508 1702.94,809.533 1798.74,627.018 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1717.96,645.594 1622.16,816.508 1702.94,809.533 1798.74,627.018 1717.96,645.594 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1798.74,627.018 1702.94,809.533 1783.73,794.906 1879.52,600.792 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1798.74,627.018 1702.94,809.533 1783.73,794.906 1879.52,600.792 1798.74,627.018 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1879.52,600.792 1783.73,794.906 1864.51,772.629 1960.31,566.915 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1879.52,600.792 1783.73,794.906 1864.51,772.629 1960.31,566.915 1879.52,600.792 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1137.46,697.694 1041.66,775.01 1122.44,825.539 1218.24,736.624 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1137.46,697.694 1041.66,775.01 1122.44,825.539 1218.24,736.624 1137.46,697.694 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1218.24,736.624 1122.44,825.539 1203.22,868.418 1299.02,767.902 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1218.24,736.624 1122.44,825.539 1203.22,868.418 1299.02,767.902 1218.24,736.624 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1299.02,767.902 1203.22,868.418 1284.01,903.645 1379.81,791.53 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1299.02,767.902 1203.22,868.418 1284.01,903.645 1379.81,791.53 1299.02,767.902 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1379.81,791.53 1284.01,903.645 1364.79,931.222 1460.59,807.507 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1379.81,791.53 1284.01,903.645 1364.79,931.222 1460.59,807.507 1379.81,791.53 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1460.59,807.507 1364.79,931.222 1445.58,951.148 1541.37,815.833 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1460.59,807.507 1364.79,931.222 1445.58,951.148 1541.37,815.833 1460.59,807.507 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1541.37,815.833 1445.58,951.148 1526.36,963.424 1622.16,816.508 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1541.37,815.833 1445.58,951.148 1526.36,963.424 1622.16,816.508 1541.37,815.833 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1622.16,816.508 1526.36,963.424 1607.14,968.048 1702.94,809.533 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1622.16,816.508 1526.36,963.424 1607.14,968.048 1702.94,809.533 1622.16,816.508 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1702.94,809.533 1607.14,968.048 1687.93,965.022 1783.73,794.906 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1702.94,809.533 1607.14,968.048 1687.93,965.022 1783.73,794.906 1702.94,809.533 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1783.73,794.906 1687.93,965.022 1768.71,954.345 1864.51,772.629 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1783.73,794.906 1687.93,965.022 1768.71,954.345 1864.51,772.629 1783.73,794.906 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1041.66,775.01 945.858,828.326 1026.64,890.456 1122.44,825.539 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1041.66,775.01 945.858,828.326 1026.64,890.456 1122.44,825.539 1041.66,775.01 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1122.44,825.539 1026.64,890.456 1107.43,944.934 1203.22,868.418 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1122.44,825.539 1026.64,890.456 1107.43,944.934 1203.22,868.418 1122.44,825.539 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1203.22,868.418 1107.43,944.934 1188.21,991.762 1284.01,903.645 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1203.22,868.418 1107.43,944.934 1188.21,991.762 1284.01,903.645 1203.22,868.418 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1284.01,903.645 1188.21,991.762 1268.99,1030.94 1364.79,931.222 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1284.01,903.645 1188.21,991.762 1268.99,1030.94 1364.79,931.222 1284.01,903.645 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1364.79,931.222 1268.99,1030.94 1349.78,1062.46 1445.58,951.148 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1364.79,931.222 1268.99,1030.94 1349.78,1062.46 1445.58,951.148 1364.79,931.222 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1445.58,951.148 1349.78,1062.46 1430.56,1086.34 1526.36,963.424 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1445.58,951.148 1349.78,1062.46 1430.56,1086.34 1526.36,963.424 1445.58,951.148 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1526.36,963.424 1430.56,1086.34 1511.34,1102.56 1607.14,968.048 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1526.36,963.424 1430.56,1086.34 1511.34,1102.56 1607.14,968.048 1526.36,963.424 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1607.14,968.048 1511.34,1102.56 1592.13,1111.14 1687.93,965.022 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1607.14,968.048 1511.34,1102.56 1592.13,1111.14 1687.93,965.022 1607.14,968.048 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1687.93,965.022 1592.13,1111.14 1672.91,1112.06 1768.71,954.345 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1687.93,965.022 1592.13,1111.14 1672.91,1112.06 1768.71,954.345 1687.93,965.022 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+945.858,828.326 850.059,857.644 930.842,931.373 1026.64,890.456 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  945.858,828.326 850.059,857.644 930.842,931.373 1026.64,890.456 945.858,828.326 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1026.64,890.456 930.842,931.373 1011.63,997.452 1107.43,944.934 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1026.64,890.456 930.842,931.373 1011.63,997.452 1107.43,944.934 1026.64,890.456 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1107.43,944.934 1011.63,997.452 1092.41,1055.88 1188.21,991.762 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1107.43,944.934 1011.63,997.452 1092.41,1055.88 1188.21,991.762 1107.43,944.934 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1188.21,991.762 1092.41,1055.88 1173.19,1106.66 1268.99,1030.94 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1188.21,991.762 1092.41,1055.88 1173.19,1106.66 1268.99,1030.94 1188.21,991.762 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1268.99,1030.94 1173.19,1106.66 1253.98,1149.78 1349.78,1062.46 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1268.99,1030.94 1173.19,1106.66 1253.98,1149.78 1349.78,1062.46 1268.99,1030.94 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1349.78,1062.46 1253.98,1149.78 1334.76,1185.26 1430.56,1086.34 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1349.78,1062.46 1253.98,1149.78 1334.76,1185.26 1430.56,1086.34 1349.78,1062.46 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1430.56,1086.34 1334.76,1185.26 1415.54,1213.08 1511.34,1102.56 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1430.56,1086.34 1334.76,1185.26 1415.54,1213.08 1511.34,1102.56 1430.56,1086.34 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1511.34,1102.56 1415.54,1213.08 1496.33,1233.26 1592.13,1111.14 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1511.34,1102.56 1415.54,1213.08 1496.33,1233.26 1592.13,1111.14 1511.34,1102.56 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1592.13,1111.14 1496.33,1233.26 1577.11,1245.78 1672.91,1112.06 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1592.13,1111.14 1496.33,1233.26 1577.11,1245.78 1672.91,1112.06 1592.13,1111.14 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+850.059,857.644 754.26,862.962 835.043,948.291 930.842,931.373 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  850.059,857.644 754.26,862.962 835.043,948.291 930.842,931.373 850.059,857.644 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+930.842,931.373 835.043,948.291 915.827,1025.97 1011.63,997.452 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  930.842,931.373 835.043,948.291 915.827,1025.97 1011.63,997.452 930.842,931.373 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1011.63,997.452 915.827,1025.97 996.61,1096 1092.41,1055.88 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1011.63,997.452 915.827,1025.97 996.61,1096 1092.41,1055.88 1011.63,997.452 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1092.41,1055.88 996.61,1096 1077.39,1158.37 1173.19,1106.66 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1092.41,1055.88 996.61,1096 1077.39,1158.37 1173.19,1106.66 1092.41,1055.88 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1173.19,1106.66 1077.39,1158.37 1158.18,1213.1 1253.98,1149.78 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1173.19,1106.66 1077.39,1158.37 1158.18,1213.1 1253.98,1149.78 1173.19,1106.66 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1253.98,1149.78 1158.18,1213.1 1238.96,1260.18 1334.76,1185.26 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1253.98,1149.78 1158.18,1213.1 1238.96,1260.18 1334.76,1185.26 1253.98,1149.78 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1334.76,1185.26 1238.96,1260.18 1319.75,1299.6 1415.54,1213.08 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1334.76,1185.26 1238.96,1260.18 1319.75,1299.6 1415.54,1213.08 1334.76,1185.26 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1415.54,1213.08 1319.75,1299.6 1400.53,1331.37 1496.33,1233.26 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1415.54,1213.08 1319.75,1299.6 1400.53,1331.37 1496.33,1233.26 1415.54,1213.08 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1496.33,1233.26 1400.53,1331.37 1481.31,1355.5 1577.11,1245.78 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1496.33,1233.26 1400.53,1331.37 1481.31,1355.5 1577.11,1245.78 1496.33,1233.26 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+754.26,862.962 658.46,844.281 739.244,941.211 835.043,948.291 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  754.26,862.962 658.46,844.281 739.244,941.211 835.043,948.291 754.26,862.962 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+835.043,948.291 739.244,941.211 820.028,1030.49 915.827,1025.97 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  835.043,948.291 739.244,941.211 820.028,1030.49 915.827,1025.97 835.043,948.291 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+915.827,1025.97 820.028,1030.49 900.811,1112.12 996.61,1096 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  915.827,1025.97 820.028,1030.49 900.811,1112.12 996.61,1096 915.827,1025.97 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+996.61,1096 900.811,1112.12 981.595,1186.09 1077.39,1158.37 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  996.61,1096 900.811,1112.12 981.595,1186.09 1077.39,1158.37 996.61,1096 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1077.39,1158.37 981.595,1186.09 1062.38,1252.42 1158.18,1213.1 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1077.39,1158.37 981.595,1186.09 1062.38,1252.42 1158.18,1213.1 1077.39,1158.37 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1158.18,1213.1 1062.38,1252.42 1143.16,1311.1 1238.96,1260.18 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1158.18,1213.1 1062.38,1252.42 1143.16,1311.1 1238.96,1260.18 1158.18,1213.1 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1238.96,1260.18 1143.16,1311.1 1223.95,1362.12 1319.75,1299.6 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1238.96,1260.18 1143.16,1311.1 1223.95,1362.12 1319.75,1299.6 1238.96,1260.18 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1319.75,1299.6 1223.95,1362.12 1304.73,1405.49 1400.53,1331.37 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1319.75,1299.6 1223.95,1362.12 1304.73,1405.49 1400.53,1331.37 1319.75,1299.6 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1400.53,1331.37 1304.73,1405.49 1385.51,1441.22 1481.31,1355.5 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1400.53,1331.37 1304.73,1405.49 1385.51,1441.22 1481.31,1355.5 1400.53,1331.37 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+658.46,844.281 562.661,801.602 643.445,910.131 739.244,941.211 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  658.46,844.281 562.661,801.602 643.445,910.131 739.244,941.211 658.46,844.281 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+739.244,941.211 643.445,910.131 724.229,1011.01 820.028,1030.49 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  739.244,941.211 643.445,910.131 724.229,1011.01 820.028,1030.49 739.244,941.211 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+820.028,1030.49 724.229,1011.01 805.012,1104.24 900.811,1112.12 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  820.028,1030.49 724.229,1011.01 805.012,1104.24 900.811,1112.12 820.028,1030.49 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+900.811,1112.12 805.012,1104.24 885.796,1189.81 981.595,1186.09 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  900.811,1112.12 805.012,1104.24 885.796,1189.81 981.595,1186.09 900.811,1112.12 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+981.595,1186.09 885.796,1189.81 966.58,1267.74 1062.38,1252.42 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  981.595,1186.09 885.796,1189.81 966.58,1267.74 1062.38,1252.42 981.595,1186.09 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1062.38,1252.42 966.58,1267.74 1047.36,1338.02 1143.16,1311.1 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1062.38,1252.42 966.58,1267.74 1047.36,1338.02 1143.16,1311.1 1062.38,1252.42 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1143.16,1311.1 1047.36,1338.02 1128.15,1400.64 1223.95,1362.12 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1143.16,1311.1 1047.36,1338.02 1128.15,1400.64 1223.95,1362.12 1143.16,1311.1 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1223.95,1362.12 1128.15,1400.64 1208.93,1455.61 1304.73,1405.49 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1223.95,1362.12 1128.15,1400.64 1208.93,1455.61 1304.73,1405.49 1223.95,1362.12 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1304.73,1405.49 1208.93,1455.61 1289.71,1502.94 1385.51,1441.22 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1304.73,1405.49 1208.93,1455.61 1289.71,1502.94 1385.51,1441.22 1304.73,1405.49 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+562.661,801.602 466.862,734.923 547.646,855.052 643.445,910.131 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  562.661,801.602 466.862,734.923 547.646,855.052 643.445,910.131 562.661,801.602 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+643.445,910.131 547.646,855.052 628.429,967.531 724.229,1011.01 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  643.445,910.131 547.646,855.052 628.429,967.531 724.229,1011.01 643.445,910.131 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+724.229,1011.01 628.429,967.531 709.213,1072.36 805.012,1104.24 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  724.229,1011.01 628.429,967.531 709.213,1072.36 805.012,1104.24 724.229,1011.01 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+805.012,1104.24 709.213,1072.36 789.997,1169.54 885.796,1189.81 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  805.012,1104.24 709.213,1072.36 789.997,1169.54 885.796,1189.81 805.012,1104.24 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+885.796,1189.81 789.997,1169.54 870.78,1259.06 966.58,1267.74 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  885.796,1189.81 789.997,1169.54 870.78,1259.06 966.58,1267.74 885.796,1189.81 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+966.58,1267.74 870.78,1259.06 951.564,1340.94 1047.36,1338.02 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  966.58,1267.74 870.78,1259.06 951.564,1340.94 1047.36,1338.02 966.58,1267.74 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1047.36,1338.02 951.564,1340.94 1032.35,1415.16 1128.15,1400.64 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1047.36,1338.02 951.564,1340.94 1032.35,1415.16 1128.15,1400.64 1047.36,1338.02 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1128.15,1400.64 1032.35,1415.16 1113.13,1481.74 1208.93,1455.61 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1128.15,1400.64 1032.35,1415.16 1113.13,1481.74 1208.93,1455.61 1128.15,1400.64 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1208.93,1455.61 1113.13,1481.74 1193.92,1540.66 1289.71,1502.94 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1208.93,1455.61 1113.13,1481.74 1193.92,1540.66 1289.71,1502.94 1208.93,1455.61 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+466.862,734.923 371.063,644.245 451.847,775.975 547.646,855.052 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  466.862,734.923 371.063,644.245 451.847,775.975 547.646,855.052 466.862,734.923 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+547.646,855.052 451.847,775.975 532.63,900.053 628.429,967.531 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  547.646,855.052 451.847,775.975 532.63,900.053 628.429,967.531 547.646,855.052 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+628.429,967.531 532.63,900.053 613.414,1016.48 709.213,1072.36 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  628.429,967.531 532.63,900.053 613.414,1016.48 709.213,1072.36 628.429,967.531 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+709.213,1072.36 613.414,1016.48 694.198,1125.26 789.997,1169.54 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  709.213,1072.36 613.414,1016.48 694.198,1125.26 789.997,1169.54 709.213,1072.36 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+789.997,1169.54 694.198,1125.26 774.981,1226.38 870.78,1259.06 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  789.997,1169.54 694.198,1125.26 774.981,1226.38 870.78,1259.06 789.997,1169.54 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+870.78,1259.06 774.981,1226.38 855.765,1319.86 951.564,1340.94 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  870.78,1259.06 774.981,1226.38 855.765,1319.86 951.564,1340.94 870.78,1259.06 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+951.564,1340.94 855.765,1319.86 936.549,1405.68 1032.35,1415.16 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  951.564,1340.94 855.765,1319.86 936.549,1405.68 1032.35,1415.16 951.564,1340.94 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1032.35,1415.16 936.549,1405.68 1017.33,1483.86 1113.13,1481.74 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1032.35,1415.16 936.549,1405.68 1017.33,1483.86 1113.13,1481.74 1032.35,1415.16 
+  "/>
+<polygon clip-path="url(#clip3902)" points="
+1113.13,1481.74 1017.33,1483.86 1098.12,1554.38 1193.92,1540.66 
+  " fill="#ffffff" fill-rule="evenodd" fill-opacity="1"/>
+<polyline clip-path="url(#clip3902)" style="stroke:#000000; stroke-width:4; stroke-opacity:1; fill:none" points="
+  1113.13,1481.74 1017.33,1483.86 1098.12,1554.38 1193.92,1540.66 1113.13,1481.74 
+  "/>
+<polyline clip-path="url(#clip3902)" style="stroke:#ff0000; stroke-width:8; stroke-opacity:1; fill:none" points="
+  2013.64,686.882 1979.45,755.461 1922.78,845.778 1900,889.659 1845.67,963.75 1786.57,1037.49 1707.78,1113.57 1649.7,1166.88 1637.01,1181.8 1616.69,1203.16 
+  1572.67,1236.24 1563.52,1246.71 1545.07,1261.48 1530.76,1274.73 1527.49,1278.41 1496.95,1298.09 1491.63,1302.47 1471.29,1315.14 1456.94,1323.44 1439.73,1332.66 
+  1420.95,1342.64 1386.7,1353.81 1377.01,1358.16 1366.24,1363.05 1354.38,1368.3 1330.22,1374.14 1326.27,1375.39 1309.33,1378.35 1296.67,1380.87 1296.36,1381.01 
+  1284.78,1383.87 1279.51,1384.88 1276.82,1385.41 1285.99,1380.96 1294.12,1376.3 1297.12,1374.73 1302.31,1372.05 1303.94,1371.21 1309.24,1367.7 1316.88,1363.87 
+  1317.47,1363.64 1325.3,1358.39 1298.55,1364.4 1300.37,1363.21 1309.11,1357.47 1299.81,1360.8 1310.73,1353.84 1296.65,1357.11 1286.1,1358.63 1293.29,1355.97 
+  1285.4,1357.34 1270.12,1359.91 1274.03,1358.28 1263.97,1359.7 1268.17,1357.68 1254.21,1360.11 1259.44,1357.16 1260.87,1356.67 1261.61,1356.56 1244.93,1358.05 
+  1252.19,1354.96 1251.89,1355.05 1241.08,1356.12 1241.94,1355.9 1246.95,1354.55 1246.92,1354.55 1249.31,1353.47 1251.88,1352.92 1257.58,1349.96 1258.71,1349.64 
+  1262.19,1349.16 1258.38,1350.03 1260.73,1349.07 1256.14,1349.84 1255.53,1350.02 1257.96,1349.01 1254.18,1349.59 1236.76,1351.04 1225.89,1351.7 1231.88,1349 
+  1233.34,1348.58 1226.43,1349.48 1231.99,1347.38 1239.68,1343.06 1236.05,1343.98 1234.53,1344.35 1233.09,1344.49 1234.37,1344.21 1223.85,1344.85 1231.82,1343.42 
+  1235.92,1342.09 1243.12,1338.51 1249.18,1335.61 1242.93,1336.89 1243.14,1336.82 1249.87,1332.86 1249.12,1333 1256.57,1329.82 1253.69,1330.86 1246.08,1332.22 
+  1243.76,1333.05 1245.02,1332.48 1241.57,1333.32 1245.05,1331.47 1244.22,1331.64 1234.78,1333.4 1220.71,1334.12 1210.1,1335.04 1218.87,1332.06 1222.53,1331.03 
+  1217.47,1331.49 1221.23,1329.78 1227.05,1328.59 1227.96,1328.27 1233.45,1325.31 1227.72,1326.22 1234.95,1323.71 1233.77,1323.95 1237.57,1323.21 1237.72,1323.18 
+  1233.22,1324.13 1222.32,1324.7 1223.6,1324.45 1222,1324.8 1218.2,1325.65 1209.31,1326.13 1213.94,1325.45 1211.15,1325.53 1208.13,1325.76 1209.65,1325.27 
+  1203.82,1326.08 1205.09,1325.96 1208.06,1325.63 1217.1,1321.98 1224.56,1318.32 1227.44,1317.05 1232.67,1314.78 1234.51,1313.99 1238.84,1311.49 1247.09,1308.05 
+  1250.25,1307.09 1257.2,1302.98 1237.15,1306.05 1237.7,1305.72 1245.34,1301.26 1238.3,1303.29 1248.22,1297.65 1239.64,1299.1 1236.72,1299.37 1244.63,1296.78 
+  1242.07,1297.13 1231.03,1298.66 1234.09,1297.45 1228.32,1298.13 1230.96,1296.9 1219.63,1298.65 1222.77,1296.92 1223.81,1296.58 1228.06,1296.06 1215.88,1296.98 
+  1221.51,1294.62 1221.09,1294.73 1213.79,1295.38 1214.48,1295.22 1219.12,1293.98 1221.34,1293.69 1221.8,1293.48 1225.03,1292.81 1228.64,1290.93 1229.9,1290.6 
+  1236.29,1289.75 1233.15,1290.45 1234.08,1290.08 1231.37,1290.53 1230.4,1290.8 1231.32,1290.42 1229.64,1290.67 1215.6,1291.84 1207.63,1292.36 1211.36,1290.63 
+  1211.76,1290.51 1206.03,1291.28 1209.83,1289.82 1215.18,1286.77 1211.32,1287.73 1209.62,1288.14 1210.66,1288.05 1211.92,1287.77 1204.45,1288.24 1212.53,1286.72 
+  1215.33,1285.79 1220.44,1283.21 1224.68,1281.17 1219.23,1282.27 1218.75,1282.41 1223.39,1279.69 1224.08,1279.56 1230.26,1276.95 1226.69,1278.21 1220.79,1279.21 
+  1217.59,1280.35 1217.38,1280.44 1214.37,1281.15 1216.12,1280.23 1216.58,1280.14 1208.4,1281.58 1198.23,1282.02 1189.54,1282.76 1196.95,1280.22 1199.86,1279.4 
+  1196.85,1279.67 1198.8,1278.77 1204.84,1277.55 1204.67,1277.6 1208.3,1275.65 1203.97,1276.3 1210.31,1274.13 1209.94,1274.2 1214.6,1273.33 1215.73,1273.12 
+  1211.7,1273.96 1204.24,1274.34 1205.59,1274.07 1203.76,1274.48 1199.63,1275.43 1193.1,1275.8 1198.01,1275.04 1197.87,1275.05 1196.04,1275.21 1195.95,1275.24 
+  1190.19,1276.1 1192.08,1275.89 1195.49,1275.48 1202.64,1272.46 1208.11,1269.7 1209.33,1269.15 1213.06,1267.51 1213.56,1267.3 1216.14,1265.81 1223.42,1262.81 
+  1226.65,1261.87 1232.09,1258.7 1214.46,1261.19 1213.41,1261.81 1219.57,1258.26 1212.86,1260.11 1221.44,1255.33 1215.1,1256.31 1215.71,1256.26 1223.31,1253.81 
+  1223.14,1253.84 1213.91,1255.09 1215.92,1254.3 1212.12,1254.74 1213.36,1254.16 1203.12,1255.73 1204.6,1254.91 1205,1254.78 1211,1254.06 1201.23,1254.8 
+  1205.54,1252.97 1204.73,1253.19 1199.33,1253.68 1199.64,1253.6 1203.8,1252.47 1207.21,1252.02 1206.25,1252.47 1209.71,1251.74 1211.83,1250.62 1212.99,1250.32 
+  1221.1,1249.25 1218.25,1249.9 1218.13,1249.95 1216.5,1250.22 1215.18,1250.59 1215.04,1250.66 1214.62,1250.72 1202.67,1251.73 1196.51,1252.18 1198.68,1251.14 
+  1198.34,1251.25 1193.31,1251.94 1195.9,1250.92 1199.67,1248.75 1195.61,1249.77 1193.75,1250.22 1196.36,1249.97 1197.58,1249.7 1192.06,1250.06 1200.19,1248.49 
+  1202.09,1247.84 1205.81,1245.94 1208.82,1244.48 1203.87,1245.47 1202.92,1245.77 1206.16,1243.86 1207.78,1243.57 1213.1,1241.33 1209.06,1242.75 1204.28,1243.53 
+  1200.48,1244.87 1199.29,1245.4 1196.55,1246.03 1197.16,1245.71 1198.46,1245.47 1191.1,1246.72 1183.48,1247.01 1176.05,1247.63 1182.56,1245.38 1184.97,1244.7 
+  1183.31,1244.85 1184.05,1244.51 1190.23,1243.26 1189.35,1243.57 1191.75,1242.28 1188.33,1242.78 1194.09,1240.82 1194.23,1240.79 1199.47,1239.83 1201.24,1239.51 
+  1197.52,1240.28 1192.33,1240.54 1193.72,1240.26 1191.74,1240.71 1187.38,1241.72 1182.41,1242.02 1187.51,1241.2 1189.11,1241.13 1188.06,1241.23 1186.92,1241.63 
+  1181.21,1242.54 1183.5,1242.27 1187.2,1241.78 1193.1,1239.23 1197.25,1237.09 1197.36,1237.04 1200.11,1235.83 1199.73,1235.99 1201.15,1235.16 1207.79,1232.46 
+  1211.07,1231.52 1215.5,1228.96 1199.48,1231.1 1197.35,1232.34 1202.55,1229.38 1196.05,1231.11 1203.75,1226.89 1198.88,1227.58 1201.83,1227.37 1209.23,1225.02 
+  1210.63,1224.84 1202.6,1225.93 1203.91,1225.4 1201.42,1225.69 1201.73,1225.55 1192.21,1227.01 1192.59,1226.79 1192.57,1226.8 1199.73,1225.95 1191.55,1226.57 
+  1194.98,1225.1 1193.92,1225.39 1189.77,1225.77 1189.84,1225.75 1193.68,1224.7 1197.88,1224.14 1195.97,1225.03 1199.58,1224.26 1200.72,1223.66 1201.82,1223.37 
+  1211.06,1222.16 1208.4,1222.77 1207.58,1223.1 1206.67,1223.25 1205.13,1223.7 1204.27,1224.06 1204.69,1224 1194.13,1224.91 1189.16,1225.29 1190.31,1224.73 
+  1189.46,1224.99 1184.9,1225.63 1186.69,1224.92 1189.42,1223.34 1185.23,1224.39 1183.26,1224.86 1186.92,1224.52 1188.1,1224.26 1183.87,1224.53 1192.03,1222.93 
+  1193.34,1222.48 1196.13,1221.04 1198.34,1219.97 1193.72,1220.89 1192.46,1221.28 1194.78,1219.91 1197.01,1219.52 1201.76,1217.53 1197.41,1219.04 1193.36,1219.69 
+  1189.17,1221.16 1187.34,1221.97 1184.77,1222.55 1184.63,1222.62 1186.48,1222.3 1179.67,1223.42 1173.73,1223.63 1167.13,1224.17 1173.05,1222.12 1175.13,1221.54 
+  1174.36,1221.61 1174.3,1221.63 1180.57,1220.37 1179.22,1220.84 1180.82,1219.98 1177.99,1220.39 1183.36,1218.58 1183.86,1218.48 1189.46,1217.46 1191.66,1217.07 
+  1188.15,1217.79 1184.46,1217.98 1185.87,1217.69 1183.79,1218.17 1179.29,1219.22 1175.35,1219.46 1180.56,1218.61 1183.32,1218.48 1182.79,1218.54 1180.94,1219.2 
+  1175.27,1220.13 1177.83,1219.81 1181.72,1219.28 1186.79,1217.04 1190.07,1215.33 1189.46,1215.61 1191.55,1214.68 1190.59,1215.1 1191.25,1214.72 1197.46,1212.2 
+  1200.77,1211.27 1204.53,1209.1 1189.57,1211.03 1186.74,1212.66 1191.3,1210.09 1184.93,1211.75 1192.06,1207.88 1188.16,1208.41 1192.66,1208.1 1199.92,1205.81 
+  1202.36,1205.51 1195.13,1206.48 1195.98,1206.15 1194.34,1206.33 1194.05,1206.48 1185,1207.86 1184.66,1208.06 1184.35,1208.15 1192.28,1207.22 1185.15,1207.76 
+  1188,1206.53 1186.77,1206.87 1183.46,1207.17 1183.36,1207.2 1186.99,1206.2 1191.71,1205.56 1189.18,1206.75 1192.89,1205.96 1193.38,1205.7 1194.43,1205.42 
+  1204.42,1204.11 1201.89,1204.7 1200.61,1205.22 1200.18,1205.3 1198.48,1205.79 1197.16,1206.35 1198.12,1206.2 1188.48,1207.05 1184.3,1207.37 1184.77,1207.14 
+  1183.6,1207.51 1179.35,1208.11 1180.61,1207.61 1182.64,1206.42 1178.37,1207.49 1176.33,1207.98 1180.67,1207.57 1181.83,1207.32 1178.46,1207.54 1186.64,1205.91 
+  1187.56,1205.59 1189.74,1204.46 1191.42,1203.65 1187.01,1204.52 1185.54,1204.97 1187.25,1203.96 1189.89,1203.51 1194.27,1201.68 1189.71,1203.26 1186.15,1203.82 
+  1181.69,1205.37 1179.44,1206.37 1176.99,1206.91 1176.35,1207.24 1178.57,1206.87 1172.11,1207.91 1167.29,1208.07 1161.24,1208.57 1166.76,1206.65 1168.62,1206.12 
+  1168.44,1206.14 1167.86,1206.41 1174.19,1205.14 1172.53,1205.72 1173.59,1205.15 1171.16,1205.49 1176.28,1203.77 1177,1203.64 1182.85,1202.58 1185.33,1202.14 
+  1181.95,1202.84 1179.26,1202.97 1180.69,1202.68 1178.54,1203.17 1173.94,1204.26 1170.68,1204.46 1175.97,1203.58 1179.5,1203.41 1179.31,1203.43 1177,1204.27 
+  1171.34,1205.21 1174.08,1204.87 1178.09,1204.3 1182.62,1202.28 1185.33,1200.86 1184.23,1201.37 1185.89,1200.63 1184.54,1201.21 1184.7,1201.12 1190.63,1198.73 
+  1193.96,1197.79 1197.29,1195.88 1183.02,1197.68 1179.73,1199.58 1183.86,1197.26 1177.59,1198.86 1184.33,1195.23 1181.08,1195.66 1186.6,1195.29 1193.77,1193.04 
+  1196.9,1192.67 1190.19,1193.56 1190.73,1193.35 1189.67,1193.47 1188.97,1193.8 1180.23,1195.14 1179.41,1195.6 1178.92,1195.76 1187.35,1194.77 1180.92,1195.27 
+  1183.39,1194.19 1182.05,1194.56 1179.28,1194.82 1179.07,1194.87 1182.57,1193.9 1187.63,1193.22 1184.7,1194.61 1188.47,1193.8 1188.52,1193.77 1189.55,1193.5 
+  1200.03,1192.13 1197.58,1192.69 1196.01,1193.35 1195.89,1193.37 1194.09,1193.89 1192.45,1194.58 1193.78,1194.38 1184.75,1195.18 1181.09,1195.47 1181.11,1195.46 
+  1179.72,1195.89 1175.68,1196.47 1176.58,1196.11 1178.16,1195.18 1173.84,1196.27 1171.75,1196.77 1176.55,1196.32 1177.69,1196.07 1174.88,1196.25 1183.08,1194.61 
+  1183.74,1194.38 1185.52,1193.45 1186.84,1192.81 1182.58,1193.65 1180.97,1194.15 1182.28,1193.38 1185.18,1192.88 1189.31,1191.16 1184.63,1192.78 1181.38,1193.28 
+  1176.75,1194.89 1174.22,1196.01 1171.85,1196.53 1170.87,1197.03 1173.34,1196.62 1167.11,1197.61 1163.03,1197.74 1157.35,1198.2 1162.61,1196.37 1164.32,1195.89 
+  1164.53,1195.87 1163.61,1196.3 1169.98,1195.03 1168.11,1195.68 1168.81,1195.3 1166.64,1195.6 1171.59,1193.94 1172.46,1193.78 1178.49,1192.7 1181.15,1192.23 
+  1177.86,1192.91 1175.82,1193.01 1177.26,1192.71 1175.06,1193.22 1170.4,1194.32 1167.59,1194.5 1172.94,1193.61 1176.97,1193.4 1177.01,1193.4 1174.39,1194.36 
+  1168.75,1195.31 1171.61,1194.95 1175.7,1194.36 1179.86,1192.49 1182.19,1191.26 1180.78,1191.91 1182.16,1191.3 1180.55,1191.99 1180.37,1192.09 1186.12,1189.78 
+  1189.46,1188.85 1192.5,1187.11 1178.69,1188.82 1175.1,1190.89 1178.95,1188.73 1172.74,1190.31 1179.22,1186.83 1176.4,1187.19 1182.59,1186.8 1189.7,1184.57 
+  1193.29,1184.15 1186.93,1184.99 1187.27,1184.86 1186.58,1184.93 1185.61,1185.4 1177.08,1186.7 1175.94,1187.34 1175.34,1187.54 1184.1,1186.52 1178.13,1186.98 
+  1180.34,1186.01 1178.93,1186.4 1176.52,1186.62 1176.24,1186.69 1179.64,1185.75 1184.93,1185.03 1181.73,1186.56 1185.55,1185.73 1185.32,1185.86 1186.33,1185.59 
+  1197.13,1184.18 1194.74,1184.73 1192.97,1185.47 1193.05,1185.46 1191.19,1186 1189.35,1186.78 1190.92,1186.54 1182.29,1187.31 1178.97,1187.58 1178.7,1187.71 
+  1177.16,1188.19 1173.25,1188.75 1173.93,1188.48 1175.21,1187.73 1170.84,1188.82 1168.72,1189.34 1173.82,1188.86 1174.95,1188.61 1172.52,1188.77 1180.72,1187.12 
+  1181.22,1186.94 1182.72,1186.16 1183.81,1185.62 1179.65,1186.45 1177.95,1186.97 1178.99,1186.36 1182.07,1185.84 1186.04,1184.18 1181.26,1185.82 1178.23,1186.3 
+  1173.49,1187.94 1170.77,1189.14 1168.45,1189.65 1167.26,1190.26 1169.88,1189.82 1163.81,1190.78 1160.22,1190.89 1154.78,1191.34 1159.86,1189.56 1161.48,1189.11 
+  1161.95,1189.07 1160.79,1189.6 1167.19,1188.33 1165.18,1189.02 1165.65,1188.77 1163.66,1189.05 1168.5,1187.43 1169.47,1187.25 1175.6,1186.16 1178.39,1185.67 
+  1175.15,1186.33 1173.55,1186.41 1175,1186.11 1172.77,1186.62 1168.06,1187.74 1165.55,1187.9 1170.94,1186.99 1175.3,1186.77 1175.49,1186.75 1172.67,1187.79 
+  1167.03,1188.75 1169.97,1188.37 1174.12,1187.77 1178.04,1185.99 1180.12,1184.89 1178.5,1185.65 1179.68,1185.12 1177.91,1185.88 1177.51,1186.11 1183.14,1183.85 
+  1186.49,1182.92 1189.33,1181.3 1175.83,1182.95 1172.04,1185.13 1175.7,1183.08 1169.53,1184.63 1175.85,1181.26 1173.31,1181.58 1179.94,1181.17 1187.02,1178.96 
+  1190.9,1178.5 1184.77,1179.31 1184.98,1179.23 1184.54,1179.28 1183.39,1179.83 1175,1181.11 1173.65,1181.87 1172.96,1182.09 1181.95,1181.05 1176.28,1181.48 
+  1178.33,1180.59 1176.87,1180.99 1174.7,1181.19 1174.37,1181.28 1177.71,1180.35 1183.15,1179.61 1179.77,1181.22 1183.61,1180.39 1183.2,1180.62 1184.2,1180.35 
+  1195.22,1178.91 1192.86,1179.46 1190.95,1180.25 1191.18,1180.22 1189.27,1180.77 1187.29,1181.61 1189.02,1181.35 1180.66,1182.09 1177.57,1182.35 1177.1,1182.58 
+  1175.47,1183.09 1171.65,1183.64 1172.17,1183.43 1173.25,1182.8 1168.86,1183.9 1166.72,1184.42 1172.02,1183.92 1173.14,1183.67 1170.95,1183.82 1179.16,1182.15 
+  1179.55,1182.02 1180.88,1181.32 1181.81,1180.87 1177.71,1181.67 1175.95,1182.22 1176.82,1181.71 1180.02,1181.17 1183.88,1179.56 1179.04,1181.22 1176.15,1181.67 
+  1171.33,1183.33 1168.49,1184.59 1166.2,1185.09 1164.87,1185.77 1167.59,1185.32 1161.63,1186.26 1158.36,1186.36 1153.07,1186.79 1158.05,1185.05 1159.6,1184.61 
+  1160.24,1184.56 1158.93,1185.17 1165.35,1183.89 1163.25,1184.62 1163.56,1184.45 1161.69,1184.7 1166.45,1183.11 1167.49,1182.93 1173.69,1181.82 1176.56,1181.32 
+  1173.36,1181.97 1172.05,1182.04 1173.5,1181.73 1171.25,1182.26 1166.52,1183.38 1164.21,1183.53 1169.61,1182.62 1174.2,1182.38 1174.48,1182.34 1171.53,1183.44 
+  1165.9,1184.4 1168.89,1184.01 1173.07,1183.4 1176.84,1181.7 1178.75,1180.68 1176.99,1181.5 1178.05,1181.02 1176.17,1181.83 1175.62,1182.15 1181.16,1179.93 
+  1184.52,1179 1187.24,1177.45 1173.94,1179.06 1170.01,1181.32 1173.56,1179.34 1167.41,1180.88 1173.62,1177.57 1171.26,1177.86 1178.19,1177.44 1185.24,1175.24 
+  1189.32,1174.76 1183.34,1175.55 1183.46,1175.51 1183.19,1175.54 1181.92,1176.14 1173.62,1177.41 1172.14,1178.25 1171.4,1178.49 1180.52,1177.43 1175.06,1177.85 
+  1176.99,1177 1175.5,1177.42 1173.49,1177.6 1173.14,1177.69 1176.44,1176.77 1181.97,1176.02 1178.47,1177.69 1182.34,1176.86 1181.8,1177.15 1182.79,1176.88 
+  1193.95,1175.43 1191.62,1175.97 1189.62,1176.8 1189.94,1176.75 1188,1177.32 1185.94,1178.19 1187.77,1177.91 1179.58,1178.64 1176.64,1178.88 1176.04,1179.18 
+  1174.35,1179.71 1170.58,1180.26 1171.01,1180.09 1171.96,1179.53 1167.55,1180.64 1165.4,1181.16 1170.83,1180.65 1171.95,1180.4 1169.92,1180.53 1178.14,1178.87 
+  1178.44,1178.76 1179.66,1178.12 1180.49,1177.72 1176.43,1178.52 1174.63,1179.07 1175.39,1178.63 1178.66,1178.08 1182.45,1176.5 1177.57,1178.17 1174.77,1178.61 
+  1169.91,1180.29 1166.98,1181.58 1164.71,1182.07 1163.29,1182.8 1166.08,1182.34 1160.19,1183.26 1157.13,1183.35 1151.95,1183.78 1156.85,1182.07 1158.36,1181.64 
+  1159.11,1181.58 1157.7,1182.23 1164.13,1180.96 1161.97,1181.7 1162.18,1181.59 1160.38,1181.83 1165.1,1180.26 1166.18,1180.06 1172.43,1178.95 1175.35,1178.44 
+  1172.18,1179.09 1171.06,1179.14 1172.51,1178.84 1170.25,1179.37 1165.5,1180.5 1163.31,1180.64 1168.74,1179.72 1173.47,1179.47 1173.82,1179.43 1170.77,1180.56 
+  1165.15,1181.53 1168.17,1181.13 1172.38,1180.51 1176.04,1178.85 1177.85,1177.89 1175.99,1178.75 1176.97,1178.32 1175.01,1179.16 1174.37,1179.53 1179.86,1177.33 
+  1183.22,1176.4 1185.86,1174.9 1172.7,1176.49 1168.67,1178.8 1172.14,1176.87 1166.01,1178.4 1172.14,1175.13 1169.91,1175.4 1177.04,1174.97 1184.07,1172.79 
+  1188.28,1172.29 1182.4,1173.07 1182.46,1173.04 1182.29,1173.06 1180.95,1173.7 1172.71,1174.96 1171.14,1175.85 1170.36,1176.1 1179.59,1175.04 1174.25,1175.44 
+  1176.11,1174.63 1174.6,1175.05 1172.7,1175.22 1172.32,1175.32 1175.59,1174.41 1181.2,1173.65 1177.62,1175.35 1181.49,1174.52 1180.87,1174.85 1181.86,1174.59 
+  1193.12,1173.12 1190.8,1173.66 1188.75,1174.52 1189.12,1174.45 1187.17,1175.03 1185.04,1175.93 1186.94,1175.64 1178.87,1176.36 1176.03,1176.59 1175.35,1176.94 
+  1173.61,1177.48 1169.88,1178.02 1170.24,1177.88 1171.1,1177.37 1166.69,1178.48 1164.52,1179 1170.04,1178.49 1171.16,1178.23 1169.24,1178.36 1177.46,1176.69 
+  1177.71,1176.6 1178.85,1176.01 1179.62,1175.63 1175.58,1176.43 1173.76,1176.99 1174.44,1176.59 1177.76,1176.04 1181.5,1174.48 1176.6,1176.16 1173.86,1176.58 
+  1168.96,1178.27 1165.99,1179.59 1163.73,1180.08 1162.24,1180.84 1165.08,1180.37 1159.24,1181.28 1156.32,1181.37 1151.21,1181.79 1156.06,1180.09 1157.54,1179.67 
+  1158.36,1179.6 1156.89,1180.29 1163.33,1179.01 1161.13,1179.77 1161.27,1179.69 1159.52,1179.93 1164.2,1178.37 1165.31,1178.17 1171.59,1177.05 1174.55,1176.54 
+  1171.4,1177.18 1170.4,1177.23 1171.85,1176.92 1169.59,1177.45 1164.82,1178.59 1162.73,1178.72 1168.16,1177.8 1172.99,1177.55 1173.38,1177.5 1170.28,1178.65 
+  1164.66,1179.63 1167.7,1179.22 1171.92,1178.6 1175.52,1176.97 1177.25,1176.05 1175.34,1176.94 1176.26,1176.52 1174.25,1177.39 1173.55,1177.8 1179,1175.61 
+  1182.36,1174.68 1184.94,1173.21 1171.87,1174.78 1167.79,1177.13 1171.2,1175.23 1165.08,1176.75 1171.17,1173.51 1169.02,1173.78 1176.27,1173.34 1183.29,1171.16 
+  1187.59,1170.65 1181.78,1171.42 1181.8,1171.41 1181.71,1171.43 1180.31,1172.09 1172.11,1173.34 1170.48,1174.27 1169.68,1174.53 1178.96,1173.45 1173.72,1173.85 
+  1175.53,1173.06 1174.01,1173.48 1172.17,1173.65 1171.78,1173.75 1175.04,1172.85 1180.68,1172.08 1177.05,1173.81 1180.94,1172.97 1180.26,1173.33 1181.24,1173.07 
+  1192.56,1171.6 1190.26,1172.13 1188.16,1173.01 1188.58,1172.94 1186.61,1173.51 1184.45,1174.43 1186.39,1174.14 1178.4,1174.85 1175.63,1175.08 1174.88,1175.45 
+  1173.12,1176 1169.42,1176.54 1169.73,1176.41 1170.54,1175.94 1166.12,1177.05 1163.95,1177.58 1169.52,1177.06 1170.64,1176.8 1168.79,1176.93 1177.01,1175.26 
+  1177.23,1175.18 1178.32,1174.61 1179.04,1174.26 1175.03,1175.05 1173.18,1175.62 1173.81,1175.25 1177.17,1174.69 1180.88,1173.14 1175.96,1174.83 1173.26,1175.24 
+  1168.34,1176.94 1165.33,1178.27 1163.08,1178.76 1161.55,1179.54 1164.43,1179.07 1158.61,1179.98 1155.78,1180.06 1150.72,1180.47 1155.53,1178.79 1157,1178.37 
+  1157.87,1178.3 1156.35,1179.01 1162.79,1177.73 1160.57,1178.49 1160.67,1178.44 1158.95,1178.68 1163.61,1177.12 1164.74,1176.92 1171.04,1175.8 1174.03,1175.28 
+  1170.88,1175.92 1169.97,1175.96 1171.42,1175.66 1169.15,1176.19 1164.38,1177.33 1162.34,1177.46 1167.77,1176.54 1172.67,1176.27 1173.09,1176.23 1169.95,1177.39 
+  1164.33,1178.37 1167.39,1177.96 1171.62,1177.34 1175.17,1175.72 1176.85,1174.83 1174.9,1175.74 1175.79,1175.34 1173.75,1176.22 1173,1176.65 1178.43,1174.48 
+  1181.8,1173.55 1184.34,1172.1 1171.32,1173.66 1167.21,1176.03 1170.58,1174.15 1164.47,1175.66 1170.52,1172.44 1168.43,1172.7 1175.77,1172.26 1182.78,1170.08 
+  1187.13,1169.57 1181.37,1170.34 1181.36,1170.34 1181.32,1170.34 1179.89,1171.02 1171.72,1172.27 1170.04,1173.22 1169.22,1173.48 1178.55,1172.4 1173.36,1172.8 
+  1175.15,1172.02 1173.61,1172.45 1171.82,1172.61 1171.42,1172.72 1174.67,1171.81 1180.34,1171.04 1176.68,1172.79 1180.57,1171.95 1179.85,1172.33 1180.83,1172.07 
+  1192.2,1170.59 1189.9,1171.12 1187.78,1172.01 1188.22,1171.93 1186.25,1172.51 1184.05,1173.44 1186.03,1173.14 1178.09,1173.85 1175.36,1174.08 1174.58,1174.47 
+  1172.8,1175.03 1169.12,1175.56 1169.4,1175.45 1170.16,1175 1165.74,1176.11 1163.56,1176.63 1169.18,1176.11 1170.29,1175.86 1168.49,1175.98 1176.71,1174.31 
+  1176.91,1174.23 1177.97,1173.68 1178.66,1173.35 1174.66,1174.13 1172.8,1174.71 1173.4,1174.36 1176.78,1173.79 1180.46,1172.25 1175.53,1173.94 1172.87,1174.35 
+  1167.93,1176.06 1164.89,1177.4 1162.66,1177.88 1161.09,1178.68 1163.99,1178.21 1158.19,1179.11 1155.43,1179.19 1150.39,1179.6 1155.19,1177.92 1156.64,1177.51 
+  1157.54,1177.44 1156,1178.16 1162.44,1176.88 1160.2,1177.65 1160.27,1177.61 1158.58,1177.84 1163.22,1176.3 1164.36,1176.09 1170.68,1174.97 1173.68,1174.45 
+  1170.54,1175.08 1169.68,1175.13 1171.14,1174.82 1168.86,1175.35 1164.08,1176.49 1162.08,1176.62 1167.52,1175.7 1172.46,1175.43 1172.9,1175.38 1169.73,1176.56 
+  1164.11,1177.54 1167.18,1177.13 1171.42,1176.5 1174.94,1174.9 1176.59,1174.02 1174.61,1174.94 1175.48,1174.56 1173.41,1175.44 1172.64,1175.89 1178.06,1173.73 
+  1181.42,1172.8 1183.94,1171.36 1170.96,1172.92 1166.82,1175.3 1170.17,1173.43 1164.07,1174.95 1170.1,1171.74 1168.04,1171.99 1175.43,1171.55 1182.44,1169.37 
+  1186.83,1168.86 1181.09,1169.62 1181.07,1169.62 1181.06,1169.63 1179.61,1170.32 1171.45,1171.57 1169.75,1172.53 1168.92,1172.79 1178.28,1171.71 1173.13,1172.11 
+  1174.89,1171.33 1173.35,1171.76 1171.59,1171.93 1171.19,1172.03 1174.42,1171.13 1180.12,1170.35 1176.43,1172.11 1180.32,1171.27 1179.59,1171.67 1180.57,1171.41 
+  1191.95,1169.92 1189.66,1170.45 1187.53,1171.35 1187.98,1171.27 1186.01,1171.85 1183.79,1172.79 1185.79,1172.49 1177.88,1173.19 1175.18,1173.42 1174.38,1173.82 
+  1172.58,1174.38 1168.91,1174.92 1169.18,1174.81 1169.92,1174.37 1165.49,1175.48 1163.31,1176.01 1168.95,1175.48 1170.06,1175.23 1168.29,1175.35 1176.51,1173.68 
+  1176.7,1173.61 1177.74,1173.07 1178.41,1172.74 1174.41,1173.53 1172.55,1174.1 1173.12,1173.77 1176.52,1173.2 1180.19,1171.67 1175.25,1173.36 1172.6,1173.77 
+  1167.66,1175.48 1164.6,1176.82 1162.37,1177.31 1160.79,1178.11 1163.7,1177.64 1157.91,1178.54 1155.19,1178.62 1150.18,1179.03 1154.96,1177.35 1156.41,1176.95 
+  1157.33,1176.87 1155.76,1177.6 1162.21,1176.32 1159.96,1177.09 1160.01,1177.07 1158.33,1177.3 1162.97,1175.75 1164.11,1175.54 1170.44,1174.42 1173.45,1173.9 
+  1170.32,1174.53 1169.49,1174.57 1170.95,1174.27 1168.67,1174.8 1163.89,1175.94 1161.91,1176.07 1167.35,1175.14 1172.32,1174.88 1172.77,1174.83 1169.59,1176.01 
+  1163.97,1176.99 1167.04,1176.58 1171.29,1175.95 1174.79,1174.36 1176.42,1173.49 1174.42,1174.42 1175.27,1174.04 1173.19,1174.93 1172.4,1175.39 1177.81,1173.23 
+  1181.17,1172.3 1183.68,1170.87 1170.73,1172.42 1166.56,1174.81 1169.9,1172.96 1163.8,1174.47 1169.82,1171.27 1167.78,1171.52 1175.21,1171.08 1182.22,1168.9 
+  1186.64,1168.38 1180.91,1169.14 1180.88,1169.15 1180.89,1169.15 1179.43,1169.85 1171.28,1171.1 1169.56,1172.07 1168.73,1172.34 1178.1,1171.25 1172.98,1171.65 
+  1174.73,1170.88 1173.18,1171.31 1171.44,1171.47 1171.03,1171.58 1174.26,1170.68 1179.97,1169.9 1176.27,1171.67 1180.16,1170.82 1179.41,1171.23 1180.39,1170.97 
+  1191.8,1169.48 1189.5,1170.01 1187.36,1170.91 1187.83,1170.83 1185.85,1171.41 1183.62,1172.36 1185.64,1172.05 1177.74,1172.76 1175.06,1172.98 1174.24,1173.39 
+  1172.44,1173.95 1168.78,1174.49 1169.03,1174.39 1169.76,1173.96 1165.32,1175.07 1163.14,1175.6 1168.8,1175.07 1169.91,1174.82 1168.16,1174.94 1176.38,1173.26 
+  1176.56,1173.2 1177.58,1172.67 1178.24,1172.35 1174.25,1173.13 1172.39,1173.71 1172.94,1173.38 1176.35,1172.81 1180.01,1171.28 1175.07,1172.98 1172.43,1173.38 
+  1167.48,1175.09 1164.41,1176.44 1162.18,1176.92 1160.59,1177.74 1163.51,1177.26 1157.73,1178.16 1155.04,1178.24 1150.04,1178.64 1154.81,1176.98 1156.25,1176.57 
+  1157.19,1176.49 1155.61,1177.23 1162.06,1175.95 1159.8,1176.73 1159.83,1176.71 1158.16,1176.93 1162.79,1175.39 1163.95,1175.18 1170.28,1174.06 1173.29,1173.53 
+  1170.17,1174.17 1169.37,1174.21 1170.82,1173.9 1168.54,1174.44 1163.76,1175.58 1161.8,1175.7 1167.24,1174.78 1172.22,1174.51 1172.68,1174.46 1169.49,1175.65 
+  1163.88,1176.62 1166.95,1176.22 1171.2,1175.59 1174.69,1174 1176.3,1173.14 1174.3,1174.07 1175.13,1173.7 1173.05,1174.59 1172.24,1175.06 1177.64,1172.9 
+  1181.01,1171.97 1183.5,1170.55 1170.57,1172.1 1166.4,1174.49 1169.72,1172.64 1163.62,1174.16 1169.63,1170.96 1167.61,1171.21 1175.07,1170.77 1182.07,1168.59 
+  1186.5,1168.07 1180.8,1168.83 1180.76,1168.84 1180.78,1168.84 1179.3,1169.54 1171.17,1170.79 1169.43,1171.77 1168.6,1172.04 1177.99,1170.95 1172.88,1171.34 
+  1174.62,1170.58 1173.07,1171.01 1171.34,1171.17 1170.93,1171.28 1174.16,1170.38 1179.87,1169.6 1176.16,1171.37 1180.06,1170.53 1179.29,1170.94 1180.27,1170.68 
+  1191.69,1169.19 1189.4,1169.72 1187.25,1170.62 1187.72,1170.54 1185.74,1171.12 1183.51,1172.07 1185.53,1171.76 1177.65,1172.47 1174.99,1172.69 1174.16,1173.11 
+  1172.35,1173.67 1168.69,1174.21 1168.94,1174.11 1169.65,1173.69 1165.21,1174.8 1163.03,1175.33 1168.7,1174.8 1169.81,1174.55 1168.08,1174.67 1176.3,1172.99 
+  1176.47,1172.93 1177.48,1172.4 1178.13,1172.08 1174.14,1172.87 1172.28,1173.44 1172.82,1173.12 1176.23,1172.55 1179.89,1171.03 1174.95,1172.72 1172.31,1173.13 
+  1167.36,1174.84 1164.29,1176.19 1162.06,1176.67 1160.46,1177.49 1163.38,1177.01 1157.61,1177.91 1154.94,1177.99 1149.94,1178.39 1154.71,1176.73 1156.15,1176.32 
+  1157.09,1176.24 1155.51,1176.98 1161.95,1175.7 1159.69,1176.48 1159.72,1176.47 1158.06,1176.69 1162.68,1175.15 1163.84,1174.94 1170.17,1173.82 1173.19,1173.29 
+  1170.07,1173.93 1169.28,1173.97 1170.74,1173.66 1168.46,1174.19 1163.67,1175.34 1161.72,1175.46 1167.17,1174.54 1172.16,1174.27 1172.63,1174.22 1169.43,1175.41 
+  1163.81,1176.38 1166.9,1175.97 1171.15,1175.35 1174.62,1173.76 1176.23,1172.9 1174.21,1173.84 1175.04,1173.47 1172.95,1174.37 1172.14,1174.84 1177.53,1172.69 
+  1180.9,1171.76 1183.39,1170.34 1170.46,1171.88 1166.28,1174.28 1169.6,1172.44 1163.5,1173.95 1169.51,1170.76 1167.5,1171 1174.97,1170.56 1181.97,1168.39 
+  1186.42,1167.86 1180.72,1168.62 1180.67,1168.64 1180.7,1168.63 1179.22,1169.34 1171.09,1170.58 1169.35,1171.57 1168.51,1171.84 1177.91,1170.75 1172.81,1171.14 
+  1174.54,1170.38 1172.99,1170.81 1171.27,1170.97 1170.86,1171.08 1174.09,1170.18 1179.81,1169.4 1176.09,1171.18 1179.99,1170.33 1179.21,1170.75 1180.19,1170.49 
+  1191.62,1169 1189.33,1169.53 1187.18,1170.43 1187.66,1170.35 1185.67,1170.93 1183.44,1171.88 1185.46,1171.58 1177.59,1172.28 1174.94,1172.5 1174.1,1172.92 
+  1172.29,1173.49 1168.63,1174.02 1168.87,1173.92 1169.58,1173.51 1165.14,1174.62 1162.96,1175.15 1168.63,1174.62 1169.75,1174.37 1168.02,1174.48 1176.24,1172.81 
+  1176.41,1172.75 1177.41,1172.22 1178.06,1171.91 1174.07,1172.69 1172.2,1173.27 1172.74,1172.95 1176.16,1172.38 1179.81,1170.86 1174.87,1172.55 1172.24,1172.96 
+  1167.28,1174.67 1164.21,1176.02 1161.98,1176.51 1160.37,1177.32 1163.3,1176.85 1157.53,1177.74 1154.87,1177.82 1149.88,1178.23 1154.64,1176.56 1156.08,1176.16 
+  1157.03,1176.08 1155.44,1176.82 1161.89,1175.54 1159.62,1176.32 1159.64,1176.31 1157.98,1176.53 1162.61,1174.99 1163.77,1174.79 1170.11,1173.66 1173.13,1173.13 
+  1170.01,1173.77 1169.23,1173.81 1170.69,1173.5 1168.41,1174.04 1163.62,1175.18 1161.67,1175.3 1167.12,1174.38 1172.12,1174.11 1172.59,1174.05 1169.39,1175.25 
+  1163.77,1176.23 1166.86,1175.82 1171.11,1175.19 1174.58,1173.6 1176.18,1172.75 1174.16,1173.69 1174.98,1173.32 1172.89,1174.22 1172.07,1174.7 1177.46,1172.54 
+  1180.83,1171.61 1183.31,1170.2 1170.39,1171.74 1166.21,1174.14 1169.52,1172.3 1163.43,1173.81 1169.43,1170.62 1167.42,1170.87 1174.91,1170.43 1181.91,1168.25 
+  1186.36,1167.73 1180.66,1168.48 1180.62,1168.5 1180.65,1168.5 1179.17,1169.2 1171.04,1170.45 1169.3,1171.43 1168.45,1171.71 1177.86,1170.62 1172.76,1171.01 
+  1174.49,1170.25 1172.94,1170.68 1171.23,1170.84 1170.81,1170.95 1174.04,1170.05 1179.76,1169.27 1176.04,1171.05 1179.94,1170.2 1179.16,1170.62 1180.14,1170.36 
+  1191.57,1168.87 1189.29,1169.4 1187.13,1170.3 1187.61,1170.22 1185.62,1170.81 1183.39,1171.76 1185.42,1171.45 1177.56,1172.15 1174.9,1172.37 1174.06,1172.79 
+  1172.25,1173.36 1168.59,1173.89 1168.83,1173.8 1169.53,1173.39 1165.09,1174.5 1162.91,1175.03 1168.59,1174.5 1169.7,1174.25 1167.98,1174.36 1176.2,1172.69 
+  1176.37,1172.63 1177.37,1172.11 1178.01,1171.79 1174.03,1172.58 1172.15,1173.16 1172.69,1172.84 1176.11,1172.27 1179.76,1170.75 1174.81,1172.44 1172.19,1172.85 
+  1167.23,1174.56 1164.15,1175.91 1161.93,1176.4 1160.32,1177.22 1163.25,1176.74 1157.48,1177.63 1154.82,1177.71 1149.84,1178.12 1154.6,1176.45 1156.03,1176.05 
+  1156.99,1175.97 1155.39,1176.71 1161.84,1175.43 1159.57,1176.21 1159.59,1176.2 1157.94,1176.43 1162.56,1174.89 1163.72,1174.68 1170.06,1173.55 1173.08,1173.03 
+  1169.96,1173.66 1169.19,1173.7 1170.65,1173.4 1168.37,1173.93 1163.58,1175.07 1161.64,1175.2 1167.09,1174.27 1172.1,1174 1172.57,1173.95 1169.36,1175.14 
+  1163.75,1176.12 1166.83,1175.71 1171.08,1175.08 1174.55,1173.5 1176.15,1172.65 1174.12,1173.59 1174.94,1173.22 1172.85,1174.13 1172.02,1174.6 1177.41,1172.45 
+  1180.78,1171.52 1183.26,1170.11 1170.35,1171.65 1166.16,1174.05 1169.47,1172.21 1163.38,1173.72 1169.37,1170.53 1167.37,1170.78 1174.86,1170.34 1181.86,1168.16 
+  1186.32,1167.64 1180.63,1168.39 1180.58,1168.41 1180.62,1168.41 1179.13,1169.12 1171.01,1170.36 1169.26,1171.35 1168.41,1171.62 1177.82,1170.53 1172.73,1170.92 
+  1174.46,1170.17 1172.91,1170.6 1171.2,1170.75 1170.78,1170.86 1174.01,1169.96 1179.73,1169.18 1176.01,1170.96 1179.91,1170.12 1179.13,1170.54 1180.11,1170.28 
+  1191.54,1168.79 1189.26,1169.32 1187.1,1170.22 1187.58,1170.14 1185.59,1170.72 1183.35,1171.67 1185.39,1171.37 1177.53,1172.07 1174.88,1172.29 1174.03,1172.71 
+  1172.22,1173.28 1168.57,1173.81 1168.8,1173.72 1169.5,1173.31 1165.06,1174.42 1162.88,1174.95 1168.56,1174.42 1169.68,1174.17 1167.96,1174.29 1176.18,1172.61 
+  1176.34,1172.55 1177.34,1172.03 1177.98,1171.72 1174,1172.5 1172.12,1173.08 1172.65,1172.77 1176.08,1172.2 1179.73,1170.67 1174.78,1172.37 1172.16,1172.77 
+  1167.19,1174.48 1164.11,1175.84 1161.89,1176.32 1160.28,1177.14 1163.21,1176.67 1157.45,1177.56 1154.79,1177.64 1149.81,1178.04 1154.57,1176.38 1156,1175.98 
+  1156.96,1175.9 1155.36,1176.64 1161.81,1175.36 1159.54,1176.14 1159.56,1176.14 1157.91,1176.36 1162.53,1174.82 1163.69,1174.61 1170.03,1173.49 1173.05,1172.96 
+  1169.93,1173.59 1169.17,1173.63 1170.63,1173.33 1168.35,1173.86 1163.56,1175 1161.62,1175.13 1167.07,1174.2 1172.08,1173.93 1172.55,1173.88 1169.34,1175.07 
+  1163.73,1176.05 1166.81,1175.64 1171.07,1175.01 1174.53,1173.43 1176.12,1172.58 1174.1,1173.53 1174.92,1173.16 1172.82,1174.06 1171.99,1174.54 1177.38,1172.38 
+  1180.75,1171.45 1183.23,1170.04 1170.32,1171.59 1166.13,1173.99 1169.44,1172.15 1163.34,1173.66 1169.34,1170.47 1167.34,1170.72 1174.84,1170.28 1181.84,1168.1 
+  1186.3,1167.58 1180.61,1168.33 1180.56,1168.35 1180.6,1168.35 1179.11,1169.06 1170.98,1170.3 1169.24,1171.29 1168.39,1171.56 1177.8,1170.48 1172.72,1170.86 
+  1174.44,1170.11 1172.89,1170.54 1171.18,1170.7 1170.76,1170.81 1173.99,1169.91 1179.72,1169.12 1175.99,1170.91 1179.89,1170.06 1179.11,1170.48 1180.09,1170.22 
+  1191.52,1168.73 1189.24,1169.26 1187.07,1170.17 1187.56,1170.08 1185.57,1170.67 1183.33,1171.62 1185.37,1171.31 1177.51,1172.01 1174.87,1172.23 1174.02,1172.66 
+  1172.2,1173.23 1168.55,1173.76 1168.78,1173.67 1169.48,1173.26 1165.04,1174.37 1162.86,1174.9 1168.54,1174.37 1169.66,1174.12 1167.94,1174.23 1176.16,1172.56 
+  1176.33,1172.5 1177.32,1171.98 1177.96,1171.67 1173.98,1172.45 1172.1,1173.03 1172.63,1172.72 1176.05,1172.15 1179.7,1170.62 1174.75,1172.32 1172.13,1172.72 
+  1167.17,1174.44 1164.09,1175.79 1161.87,1176.27 1160.25,1177.1 1163.19,1176.62 1157.42,1177.51 1154.77,1177.59 1149.79,1178 1154.55,1176.33 1155.98,1175.93 
+  1156.94,1175.85 1155.35,1176.6 1161.79,1175.32 1159.52,1176.1 1159.54,1176.09 1157.88,1176.31 1162.5,1174.77 1163.67,1174.57 1170.01,1173.44 1173.03,1172.91 
+  1169.91,1173.55 1169.15,1173.59 1170.61,1173.28 1168.33,1173.81 1163.54,1174.96 1161.61,1175.08 1167.06,1174.15 1172.07,1173.88 1172.54,1173.83 1169.33,1175.03 
+  1163.72,1176.01 1166.8,1175.59 1171.06,1174.96 1174.52,1173.39 1176.11,1172.54 1174.08,1173.48 1174.9,1173.11 1172.8,1174.02 1171.97,1174.5 1177.36,1172.34 
+  1180.73,1171.41 1183.2,1170 1170.3,1171.54 1166.11,1173.95 1169.42,1172.11 1163.32,1173.62 1169.31,1170.44 1167.32,1170.68 1174.82,1170.24 1181.82,1168.06 
+  1186.28,1167.54 1180.59,1168.29 1180.54,1168.31 1180.58,1168.31 1179.09,1169.02 1170.97,1170.26 1169.22,1171.25 1168.37,1171.52 1177.78,1170.44 1172.7,1170.83 
+  1174.43,1170.07 1172.87,1170.5 1171.17,1170.66 1170.75,1170.77 1173.98,1169.87 1179.7,1169.09 1175.97,1170.87 1179.88,1170.03 1179.09,1170.44 1180.07,1170.18 
+  1191.51,1168.69 1189.22,1169.22 1187.06,1170.13 1187.55,1170.05 1185.56,1170.63 1183.32,1171.58 1185.35,1171.28 1177.5,1171.98 1174.86,1172.2 1174.01,1172.62 
+  1172.19,1173.19 1168.54,1173.72 1168.77,1173.63 1169.46,1173.22 1165.03,1174.33 1162.85,1174.86 1168.53,1174.33 1169.64,1174.08 1167.93,1174.2 1176.15,1172.52 
+  1176.32,1172.46 1177.31,1171.94 1177.94,1171.63 1173.96,1172.42 1172.09,1173 1172.62,1172.68 1176.04,1172.11 1179.69,1170.59 1174.74,1172.29 1172.12,1172.69 
+  
+  "/>
+<polyline clip-path="url(#clip3902)" style="stroke:#0000ff; stroke-width:8; stroke-opacity:1; fill:none" points="
+  1962.75,761.537 1875.3,893.831 1798.71,996.987 1731.62,1077.56 1672.85,1140.6 1621.35,1190.02 1576.21,1228.81 1536.65,1259.31 1501.95,1283.33 1471.52,1302.25 
+  1444.83,1317.17 1421.39,1328.93 1400.82,1338.2 1382.75,1345.47 1366.86,1351.17 1352.89,1355.6 1340.59,1359.01 1329.77,1361.61 1320.22,1363.54 1311.8,1364.94 
+  1304.37,1365.9 1297.79,1366.49 1291.97,1366.8 1286.81,1366.86 1282.22,1366.72 1278.15,1366.41 1274.51,1365.96 1271.27,1365.4 1268.36,1364.74 1265.76,1364 
+  1263.41,1363.19 1261.29,1362.33 1259.38,1361.42 1257.64,1360.47 1256.05,1359.49 1254.6,1358.48 1253.27,1357.45 1252.05,1356.4 1250.91,1355.33 1249.86,1354.26 
+  1248.88,1353.17 1247.96,1352.08 1247.1,1350.98 1246.28,1349.88 1245.51,1348.77 1244.78,1347.67 1244.08,1346.56 1243.4,1345.46 1242.76,1344.36 1242.14,1343.26 
+  1241.54,1342.16 1240.96,1341.07 1240.4,1339.98 1239.85,1338.89 1239.32,1337.81 1238.79,1336.74 1238.28,1335.66 1237.78,1334.6 1237.29,1333.54 1236.8,1332.48 
+  1236.33,1331.44 1235.86,1330.39 1235.4,1329.36 1234.94,1328.32 1234.49,1327.3 1234.05,1326.28 1233.61,1325.27 1233.17,1324.26 1232.74,1323.26 1232.31,1322.27 
+  1231.89,1321.28 1231.47,1320.29 1231.06,1319.32 1230.64,1318.35 1230.24,1317.38 1229.83,1316.43 1229.43,1315.47 1229.03,1314.53 1228.64,1313.59 1228.25,1312.66 
+  1227.86,1311.73 1227.47,1310.81 1227.09,1309.89 1226.71,1308.98 1226.33,1308.08 1225.96,1307.18 1225.58,1306.28 1225.21,1305.4 1224.85,1304.52 1224.48,1303.64 
+  1224.12,1302.77 1223.76,1301.91 1223.41,1301.05 1223.05,1300.2 1222.7,1299.35 1222.35,1298.51 1222,1297.67 1221.66,1296.84 1221.32,1296.01 1220.98,1295.19 
+  1220.64,1294.38 1220.3,1293.57 1219.97,1292.76 1219.64,1291.96 1219.31,1291.17 1218.99,1290.38 1218.66,1289.6 1218.34,1288.82 1218.02,1288.05 1217.7,1287.28 
+  1217.39,1286.51 1217.08,1285.76 1216.77,1285 1216.46,1284.25 1216.15,1283.51 1215.85,1282.77 1215.54,1282.04 1215.24,1281.31 1214.95,1280.58 1214.65,1279.86 
+  1214.36,1279.15 1214.06,1278.44 1213.77,1277.73 1213.48,1277.03 1213.2,1276.34 1212.91,1275.64 1212.63,1274.96 1212.35,1274.27 1212.07,1273.6 1211.8,1272.92 
+  1211.52,1272.25 1211.25,1271.59 1210.98,1270.93 1210.71,1270.27 1210.44,1269.62 1210.18,1268.97 1209.91,1268.33 1209.65,1267.69 1209.39,1267.05 1209.13,1266.42 
+  1208.87,1265.8 1208.62,1265.17 1208.37,1264.56 1208.12,1263.94 1207.87,1263.33 1207.62,1262.72 1207.37,1262.12 1207.13,1261.52 1206.88,1260.93 1206.64,1260.34 
+  1206.4,1259.75 1206.17,1259.17 1205.93,1258.59 1205.69,1258.02 1205.46,1257.45 1205.23,1256.88 1205,1256.31 1204.77,1255.75 1204.54,1255.2 1204.32,1254.65 
+  1204.09,1254.1 1203.87,1253.55 1203.65,1253.01 1203.43,1252.47 1203.21,1251.94 1203,1251.41 1202.78,1250.88 1202.57,1250.36 1202.36,1249.83 1202.15,1249.32 
+  1201.94,1248.8 1201.73,1248.29 1201.52,1247.79 1201.32,1247.28 1201.12,1246.78 1200.91,1246.29 1200.71,1245.79 1200.51,1245.3 1200.32,1244.82 1200.12,1244.33 
+  1199.92,1243.85 1199.73,1243.37 1199.54,1242.9 1199.35,1242.43 1199.16,1241.96 1198.97,1241.5 1198.78,1241.04 1198.59,1240.58 1198.41,1240.12 1198.23,1239.67 
+  1198.04,1239.22 1197.86,1238.77 1197.68,1238.33 1197.5,1237.89 1197.33,1237.45 1197.15,1237.02 1196.98,1236.58 1196.8,1236.16 1196.63,1235.73 1196.46,1235.31 
+  1196.29,1234.89 1196.12,1234.47 1195.95,1234.05 1195.78,1233.64 1195.62,1233.23 1195.45,1232.82 1195.29,1232.42 1195.13,1232.02 1194.97,1231.62 1194.81,1231.22 
+  1194.65,1230.83 1194.49,1230.44 1194.33,1230.05 1194.18,1229.67 1194.02,1229.28 1193.87,1228.9 1193.72,1228.53 1193.56,1228.15 1193.41,1227.78 1193.26,1227.41 
+  1193.11,1227.04 1192.97,1226.67 1192.82,1226.31 1192.68,1225.95 1192.53,1225.59 1192.39,1225.24 1192.24,1224.88 1192.1,1224.53 1191.96,1224.19 1191.82,1223.84 
+  1191.68,1223.5 1191.55,1223.15 1191.41,1222.81 1191.27,1222.48 1191.14,1222.14 1191,1221.81 1190.87,1221.48 1190.74,1221.15 1190.61,1220.83 1190.48,1220.5 
+  1190.35,1220.18 1190.22,1219.86 1190.09,1219.54 1189.96,1219.23 1189.84,1218.91 1189.71,1218.6 1189.59,1218.3 1189.46,1217.99 1189.34,1217.68 1189.22,1217.38 
+  1189.1,1217.08 1188.98,1216.78 1188.86,1216.48 1188.74,1216.19 1188.62,1215.9 1188.51,1215.61 1188.39,1215.32 1188.27,1215.03 1188.16,1214.75 1188.05,1214.46 
+  1187.93,1214.18 1187.82,1213.9 1187.71,1213.63 1187.6,1213.35 1187.49,1213.08 1187.38,1212.8 1187.27,1212.54 1187.16,1212.27 1187.06,1212 1186.95,1211.74 
+  1186.84,1211.47 1186.74,1211.21 1186.64,1210.95 1186.53,1210.7 1186.43,1210.44 1186.33,1210.19 1186.23,1209.93 1186.13,1209.68 1186.03,1209.43 1185.93,1209.19 
+  1185.83,1208.94 1185.73,1208.7 1185.63,1208.45 1185.54,1208.21 1185.44,1207.97 1185.34,1207.74 1185.25,1207.5 1185.16,1207.27 1185.06,1207.03 1184.97,1206.8 
+  1184.88,1206.57 1184.79,1206.35 1184.7,1206.12 1184.61,1205.89 1184.52,1205.67 1184.43,1205.45 1184.34,1205.23 1184.25,1205.01 1184.16,1204.79 1184.08,1204.58 
+  1183.99,1204.36 1183.91,1204.15 1183.82,1203.94 1183.74,1203.73 1183.65,1203.52 1183.57,1203.31 1183.49,1203.1 1183.41,1202.9 1183.32,1202.7 1183.24,1202.49 
+  1183.16,1202.29 1183.08,1202.09 1183,1201.9 1182.93,1201.7 1182.85,1201.5 1182.77,1201.31 1182.69,1201.12 1182.62,1200.93 1182.54,1200.74 1182.46,1200.55 
+  1182.39,1200.36 1182.31,1200.17 1182.24,1199.99 1182.17,1199.81 1182.09,1199.62 1182.02,1199.44 1181.95,1199.26 1181.88,1199.08 1181.81,1198.91 1181.74,1198.73 
+  1181.67,1198.55 1181.6,1198.38 1181.53,1198.21 1181.46,1198.04 1181.39,1197.86 1181.32,1197.7 1181.26,1197.53 1181.19,1197.36 1181.12,1197.19 1181.06,1197.03 
+  1180.99,1196.87 1180.93,1196.7 1180.86,1196.54 1180.8,1196.38 1180.73,1196.22 1180.67,1196.06 1180.61,1195.91 1180.55,1195.75 1180.48,1195.6 1180.42,1195.44 
+  1180.36,1195.29 1180.3,1195.14 1180.24,1194.99 1180.18,1194.84 1180.12,1194.69 1180.06,1194.54 1180,1194.39 1179.95,1194.25 1179.89,1194.1 1179.83,1193.96 
+  1179.77,1193.81 1179.72,1193.67 1179.66,1193.53 1179.6,1193.39 1179.55,1193.25 1179.49,1193.11 1179.44,1192.98 1179.38,1192.84 1179.33,1192.7 1179.28,1192.57 
+  1179.22,1192.44 1179.17,1192.3 1179.12,1192.17 1179.07,1192.04 1179.01,1191.91 1178.96,1191.78 1178.91,1191.65 1178.86,1191.53 1178.81,1191.4 1178.76,1191.27 
+  1178.71,1191.15 1178.66,1191.03 1178.61,1190.9 1178.56,1190.78 1178.51,1190.66 1178.47,1190.54 1178.42,1190.42 1178.37,1190.3 1178.32,1190.18 1178.28,1190.06 
+  1178.23,1189.95 1178.18,1189.83 1178.14,1189.72 1178.09,1189.6 1178.05,1189.49 1178,1189.38 1177.96,1189.26 1177.91,1189.15 1177.87,1189.04 1177.83,1188.93 
+  1177.78,1188.82 1177.74,1188.72 1177.7,1188.61 1177.65,1188.5 1177.61,1188.4 1177.57,1188.29 1177.53,1188.19 1177.49,1188.08 1177.45,1187.98 1177.4,1187.88 
+  1177.36,1187.77 1177.32,1187.67 1177.28,1187.57 1177.24,1187.47 1177.2,1187.37 1177.17,1187.28 1177.13,1187.18 1177.09,1187.08 1177.05,1186.98 1177.01,1186.89 
+  1176.97,1186.79 1176.94,1186.7 1176.9,1186.61 1176.86,1186.51 1176.82,1186.42 1176.79,1186.33 1176.75,1186.24 1176.72,1186.15 1176.68,1186.06 1176.64,1185.97 
+  1176.61,1185.88 1176.57,1185.79 1176.54,1185.7 1176.5,1185.61 1176.47,1185.53 1176.43,1185.44 1176.4,1185.36 1176.37,1185.27 1176.33,1185.19 1176.3,1185.1 
+  1176.27,1185.02 1176.23,1184.94 1176.2,1184.86 1176.17,1184.78 1176.14,1184.7 1176.11,1184.61 1176.07,1184.54 1176.04,1184.46 1176.01,1184.38 1175.98,1184.3 
+  1175.95,1184.22 1175.92,1184.14 1175.89,1184.07 1175.86,1183.99 1175.83,1183.92 1175.8,1183.84 1175.77,1183.77 1175.74,1183.69 1175.71,1183.62 1175.68,1183.55 
+  1175.65,1183.47 1175.62,1183.4 1175.59,1183.33 1175.57,1183.26 1175.54,1183.19 1175.51,1183.12 1175.48,1183.05 1175.46,1182.98 1175.43,1182.91 1175.4,1182.84 
+  1175.37,1182.78 1175.35,1182.71 1175.32,1182.64 1175.29,1182.58 1175.27,1182.51 1175.24,1182.45 1175.22,1182.38 1175.19,1182.32 1175.17,1182.25 1175.14,1182.19 
+  1175.12,1182.13 1175.09,1182.06 1175.07,1182 1175.04,1181.94 1175.02,1181.88 1174.99,1181.82 1174.97,1181.75 1174.94,1181.69 1174.92,1181.63 1174.9,1181.58 
+  1174.87,1181.52 1174.85,1181.46 1174.83,1181.4 1174.8,1181.34 1174.78,1181.28 1174.76,1181.23 1174.74,1181.17 1174.71,1181.11 1174.69,1181.06 1174.67,1181 
+  
+  "/>
+</svg>
