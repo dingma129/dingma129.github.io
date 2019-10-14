@@ -17,14 +17,14 @@ kaggle_2:
     excerpt: 'summary'
     url: "/python/Kaggle_2/"
     btn_label: "Read More"
-    btn_class: "btn-info"
+    btn_class: "btn--info"
 project_1:
   - image_path: /assets/image/project_1.png
     title: "Project: Chicago Sharing Bicycle"
     excerpt: 'summary'
     url: "/python/divvy/"
     btn_label: "Read More"
-    btn_class: "btn-outline-info"
+    btn_class: "btn--info"
 ---
 
 {% include feature_row id="intro" type="center" %}
