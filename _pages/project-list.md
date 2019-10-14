@@ -31,21 +31,19 @@ fastai_2:
     url: "/python/fastai_2/"
     btn_label: "Read More"
     btn_class: "btn--info"
-scala_2:
+row_2:
   - image_path: /assets/image/scala_2_resized.png
     title: "Crowdflower Search Results Relevance"
     excerpt: 'how to measure the relevance of search results?'
     url: "/scala/Spark_in_Scala_2/"
     btn_label: "Read More"
     btn_class: "btn--info"
-rec_sys_4:
   - image_path: /assets/image/rec_sys_4_resized.png
     title: "Implementation of ALS, SVD++ using PyTorch"
     excerpt: 'implementations of ALS, SVD++ with detailed explaination'
     url: "/python/Rec_Sys_4/"
     btn_label: "Read More"
     btn_class: "btn--info"
-pyro_2:
   - image_path: /assets/image/pyro_2_resized.png
     title: "Variational inference using Pyro"
     excerpt: 'variational autoencoder'
@@ -60,10 +58,6 @@ pyro_2:
 
 {% include feature_row id="fastai_2" type="left" %}
 
-{% include feature_row id="scala_2" type="left" %}
-
-{% include feature_row id="rec_sys_4" type="left" %}
-
-{% include feature_row id="pyro_2" type="left" %}
+{% include feature_row id="row_2" type="center" %}
 
 
