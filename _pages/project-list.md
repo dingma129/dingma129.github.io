@@ -58,6 +58,6 @@ row_2:
 
 {% include feature_row id="fastai_2" type="left" %}
 
-{% include feature_row id="row_2" type="center" %}
+{% include feature_row id="row_2"%}
 
 
