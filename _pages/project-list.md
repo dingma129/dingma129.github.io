@@ -11,14 +11,14 @@ excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef 
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 kaggle_2:
-  - image_path: /assets/image/kaggle_2.png
+  - image_path: /assets/image/kaggle_2_resized.png
     title: "Project: New York Taxi"
     excerpt: 'summary'
     url: "/python/Kaggle_2/"
     btn_label: "Read More"
     btn_class: "btn--info"
 project_1:
-  - image_path: /assets/image/project_1.png
+  - image_path: /assets/image/project_1_resized.png
     title: "Project: Chicago Sharing Bicycle"
     excerpt: 'summary'
     url: "/python/divvy/"
