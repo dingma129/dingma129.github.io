@@ -10,21 +10,19 @@ header:
 excerpt: "several selected projects will be listed here, find more projects using language or topic"
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-kaggle_2:
+row_1:
   - image_path: /assets/image/kaggle_2_resized.png
     title: "New York City Taxi"
     excerpt: 'interesting facts about New York City taxi'
     url: "/python/Kaggle_2/"
     btn_label: "Read More"
     btn_class: "btn--info"
-project_1:
   - image_path: /assets/image/project_1_resized.png
     title: "Chicago Sharing Bicycle"
     excerpt: 'where should I return the bicycle?'
     url: "/python/divvy/"
     btn_label: "Read More"
     btn_class: "btn--info"
-fastai_2:
   - image_path: /assets/image/fastai_2_resized.png
     title: "Dogs vs Cats"
     excerpt: 'image classfication using FastAI'
@@ -52,12 +50,8 @@ row_2:
     btn_class: "btn--info"
 ---
 
-{% include feature_row id="kaggle_2" type="left" %}
+{% include feature_row id="row_1" %}
 
-{% include feature_row id="project_1" type="left" %}
-
-{% include feature_row id="fastai_2" type="left" %}
-
-{% include feature_row id="row_2"%}
+{% include feature_row id="row_2" %}
 
 
