@@ -2,7 +2,6 @@
 title: "List of Projects"
 permalink: /projects/
 layout: splash
-classes: wide
 author_profile: true
 header:
   overlay_color: "#000"
@@ -30,6 +29,8 @@ project_1:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="kaggle_2" type="left" %}
+
+{% include feature_row id="project_1" type="left" %}
 
 {% include feature_row id="project_1" type="right" %}
 
