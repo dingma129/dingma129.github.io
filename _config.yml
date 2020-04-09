@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Ding Ma"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Scientist and Former Mathematician"
+  bio              : "Machine Learning Engineer, Data Scientist and Former Mathematician"
   location         : "Los Angeles"
   email            :
   links:
