@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>plotly</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+<div id = "div1">
+<label>
+    N = <input type="number" id = "N" value = "10000" />
+</label>
+&nbsp&nbsp&nbsp&nbsp
+<label>
+    μ = <input type="number" id = "muTrue" value = "0"/>
+</label>
+&nbsp&nbsp&nbsp&nbsp
+<label>
+    σ = <input type="number" id = "stdTrue" value = "1"/>
+</label>
+</div>
+<br />
+<button id="b1">magic!</button>
+
+<p id = "pMu">&nbsp</p>
+<p id = "pStd">&nbsp</p>
+
+<div id="div2" style="width:600px; height:400px; margin: auto;" ></div>
+
+<script>
+    let data = [undefined,undefined];
+    function gaussian(mean, stddev) {
+        return function() {
+            let V1,V2,S;
+            do {
+                let U1 = Math.random(), U2 = Math.random();
+                V1 = 2*U1-1;
+                V2 = 2*U2-1;
+                S = V1**2+V2**2;
+            } while (S >= 1)
+            if(S === 0) return 0;
+            return mean+stddev*(V1*Math.sqrt(-2*Math.log(S)/S));
+        }
+    }
+    function sampleStat(arr) {
+        let n = arr.length;
+        let mu = 0;
+        for (let i of arr) {
+            mu += i;
+        }
+        mu /= n;
+        console.log(mu);
+        let dev = 0;
+        for (let i of arr) {
+            dev += (i-mu)**2;
+        }
+        dev = Math.sqrt(dev/n)
+        return [mu.toFixed(4),dev.toFixed(4)]
+    }
+
+    function updateData(){
+        let N = document.getElementById('N').value;
+        let muTrue = Number(document.getElementById('muTrue').value);
+        let stdTrue = Number(document.getElementById('stdTrue').value);
+        if (stdTrue <= 0) {
+            alert("σ must be positive");
+            return undefined;
+        } else if (N <= 0) {
+            alert("N must be positive");
+            return undefined;
+        }
+
+        let gaussianRandom = gaussian(muTrue,stdTrue);
+        let df = []
+        for (let i=0; i<N;i++) {
+            df.push(Number(gaussianRandom()));
+        }
+        let stats = sampleStat(df);
+        document.getElementById('pMu').innerHTML = `μ<sub>sample</sub> = ${stats[0]}`;
+        document.getElementById('pStd').innerHTML = `σ<sub>sample</sub> = ${stats[1]}`;
+        let trace1 = {
+            x: df,
+            type: 'histogram',
+            name: 'sample',
+            opacity: 0.5,
+            histnorm : "probability density",
+            xbins: {
+                end: muTrue + 3*stdTrue,
+                size: stdTrue/15,
+                start: muTrue - 3*stdTrue,
+            }
+        };
+
+        let df_x = [], df_y = [];
+        let x_current = muTrue - 3*stdTrue, step = stdTrue/15;
+        for (let i = 0; i < 90; i++) {
+            df_x.push(x_current);
+            df_y.push(1/(stdTrue*Math.sqrt(2*Math.PI))*
+                Math.exp(-0.5*((x_current-muTrue)/stdTrue)**2));
+            x_current += step;
+        }
+
+        let trace2 = {
+            x: df_x,
+            y: df_y,
+            mode: 'lines',
+            name: 'population',
+            line: {
+                width: 5
+            },
+        };
+
+        data = [trace1,trace2];
+    }
+
+    function updatePlot(){
+        Plotly.newPlot('div2', data);
+    }
+
+    function updateAll(){
+        updateData();
+        updatePlot();
+    }
+
+    $("#b1").click(updateAll);
+    $("#N").change(updateAll);
+    $("#muTrue").change(updateAll);
+    $("#stdTrue").change(updateAll);
+    $(window).resize(updatePlot);
+</script>
+</body>
+</html>
