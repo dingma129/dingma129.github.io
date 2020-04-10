@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tensorflow</title>
+    <!-- import tensorflow -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.7.2/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.4.0/dist/tfjs-vis.umd.min.js"></script>
+    <!-- import papa parse -->
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.2.0/papaparse.min.js"></script>
+    <!-- import the main script file -->
+    <script src="src/tf01.js"></script>
+
+    <style>
+        #status {
+            font-size: 16px;
+            font-family: monospace;
+        }
+        button {
+            padding: 14px 20px;
+            transition-duration: 0.4s;
+            border-radius: 8px;
+            background-color: white;
+            color: black;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: mediumaquamarine;
+            color: white;
+        }
+        input {
+            padding: 15px 15px;
+            transition-duration: 0.4s;
+            border-radius: 8px;
+            background-color: white;
+            color: black;
+            font-size: 16px;
+        }
+        input:hover {
+            background-color: palevioletred;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<h1>Linear Regression using Tensorflow.js</h1>
+<p>In this web page, you can train and visualize a linear regression model on the famous <a href="http://faculty.marshall.usc.edu/gareth-james/ISL/data.html">Auto</a> dataset. Please use the <b>Auto.csv</b> file from the link.</p>
+<h2> load "Auto.csv" first </h2>
+<div>
+    <input type="file" id="files" onchange="readFile(this)"/>
+</div>
+<br />
+<h2> play with the following buttons</h2>
+<p>Multiple clicks of the "train model" button will continue training the model without re-initiation.
+<div>
+    <button id="dataPreview" onclick="dataPreview()">preview data</button>&nbsp&nbsp
+    <button id="scatterPlot" onclick="scatterPlot()">scatter plot</button>&nbsp&nbsp
+    <button id="modelSummary" onclick="modelSummary()">initiate model</button>&nbsp&nbsp
+    <button id="trainModel" onclick="trainModel()">train model</button>&nbsp&nbsp
+    <button id="predictionPlot" onclick="predictionPlot()">prediction</button>
+</div>
+
+<div id="status">
+</div>
+
+<script>
+
+</script>
+
+</body>
+</html>
